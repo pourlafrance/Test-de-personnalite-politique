@@ -144,6 +144,7 @@ Règles : un chiffre n'est affiché que s'il figure dans la source officielle ci
 - Confirmé : L'enseignement privé sous contrat accueille environ 17 % des élèves (https://www.vie-publique.fr/rapport/293649-mission-relative-au-financement-public-enseignement-prive-sous-contrat)
 - Confirmé : Loi Debré (1959) fondement du cadre juridique actuel du financement (https://www.vie-publique.fr/rapport/293649-mission-relative-au-financement-public-enseignement-prive-sous-contrat)
 - Retiré faute de source officielle : Financements publics pour les salaires des enseignants, en contrepartie du respect des programmes nationaux
+- Confirmé : principe de la loi Debré de 1959 (contractualisation des établissements privés avec l'État, contrat simple ou d'association, engagement à suivre les programmes nationaux, statut « hors contrat ») (https://www.vie-publique.fr/questions-reponses/290729-lorganisation-de-lenseignement-prive-en-france-en-6-questions)
 
 ### Question 34 : Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.
 - Confirmé : avec de très fortes disparités selon les filières et les régions (https://www.vie-publique.fr/questions-reponses/292775-la-crise-agricole-en-10-questions)
