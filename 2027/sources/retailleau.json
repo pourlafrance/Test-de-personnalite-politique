@@ -1,0 +1,328 @@
+{
+ "candidat": "Bruno Retailleau",
+ "parti": "Les Républicains",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré et candidat officiel des Républicains. Il annonce sa candidature à l'élection présidentielle le 12 février 2026 (vidéo/déclaration sur republicains.fr). Le communiqué de LR du 20 avril 2026 indique que les adhérents, consultés les 18 et 19 avril (participation 60,01 %), ont retenu à 73,8 % la désignation de Bruno Retailleau comme candidat, contre 12,2 % (primaire fermée) et 14 % (primaire ouverte aux sympathisants). Le 31 mai 2026 (JDD), il déclare « Ma candidature ira jusqu'au bout » et dément tout projet de retrait ; le 1er juillet 2026 il juge qu'une primaire « n'est plus possible » ; le 2 septembre 2026 (Figaro) il répond n'avoir « pas d'opposition de principe » à une primaire mais ne pas vouloir perdre son temps sur ce sujet, et se dit certain de pouvoir gagner. Le 8 septembre 2026, un communiqué annonce la constitution de son équipe de porte-paroles « tout au long de la campagne ». Dernière source consultée : 8 septembre 2026 ; aucune source postérieure sur un retrait n'a été trouvée.",
+  "sources": [
+   "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+   "https://republicains.fr/actualites/2026/04/20/bruno-retailleau-largement-designe-comme-candidat-des-republicains-pour-lelection-presidentielle/",
+   "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+   "https://republicains.fr/actualites/2026/07/01/je-serai-la-surprise-de-cette-election/",
+   "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "https://republicains.fr/wp-content/uploads/2026/09/CP_BR_PP_809.pdf"
+  ]
+ },
+ "positions_documentees": 34,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "L’Etat n’est pas pauvre parce qu’il taxe trop peu – il est pauvre parce qu’il dépense trop.",
+   "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+   "date_source": "2026-08-26"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Plus de 25 milliards d’euros d’allègements porteront sur le coût du travail, en combinant la mise en place du seuil « zéro cotisation »",
+   "url": "https://republicains.fr/wp-content/uploads/2026/02/LR_Produire_Plus_LIVRET.pdf",
+   "date_source": "2026-02-18"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Chaque année, l’État engloutit plus de la moitié de la richesse produite. Quarante années de social-étatisme ont créé un système aussi fou qu’injuste",
+   "url": "https://republicains.fr/actualites/2026/05/02/priorite-travail-france-35h-salaires-retraites/",
+   "date_source": "2026-05-02"
+  },
+  {
+   "question_id": 8,
+   "question": "Les flux migratoires vers la France doivent être fortement réduits.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "pour réduire drastiquement l’immigration",
+   "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+   "date_source": "2026-02-12"
+  },
+  {
+   "question_id": 9,
+   "question": "Le droit du sol doit être supprimé ou fortement restreint.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "abolir le droit du sol et revenir à l’assimilation pour qu’il n’y ait plus de naturalisations automatiques.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "il faut des peines planchers beaucoup plus sévères.",
+   "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+   "date_source": "2026-05-31"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "je veux créer un bouclier constitutionnel afin de protéger nos lois contre les interprétations abusives des juridictions européennes et internationales.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "À cette écologie de la régression, qui interdit tout et appauvrit chacun, nous devons opposer l’écologie de l’adaptation.",
+   "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/",
+   "date_source": "2026-08-09"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "S’adapter, c’est lutter contre le réchauffement avec l’énergie la plus souveraine, abondante, pilotable et décarbonée : le nucléaire.",
+   "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/",
+   "date_source": "2026-08-09"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "Face au réchauffement climatique, adapter la France plutôt que punir",
+   "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/",
+   "date_source": "2026-08-09"
+  },
+  {
+   "question_id": 20,
+   "question": "Les aides sociales (Revenu de Solidarité Active, allocations) doivent être conditionnées à une démarche active de retour à l'emploi.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "Son groupe parlementaire s’est opposé à la réforme que je portais pour instaurer une contrepartie d’activité au RSA.",
+   "url": "https://republicains.fr/actualites/2025/07/23/bruno-retailleau-le-macronisme-sachevera-avec-emmanuel-macron/",
+   "date_source": "2025-07-23"
+  },
+  {
+   "question_id": 21,
+   "question": "L'État doit construire massivement des logements sociaux pour répondre à la crise du logement.",
+   "theme": "Santé & Social",
+   "valeur": -1,
+   "citation": "Adapter la loi SRU à la réalité du terrain, redonner aux maires la maîtrise du logement social",
+   "url": "https://republicains.fr/wp-content/uploads/2026/05/LR_Logement.pdf",
+   "date_source": "2026-05-28"
+  },
+  {
+   "question_id": 22,
+   "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "La neutralité de la loi de 2004 sera étendue aux accompagnateurs des sorties scolaires, et le port de l’uniforme encouragé",
+   "url": "https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf",
+   "date_source": "2026-08-31"
+  },
+  {
+   "question_id": 24,
+   "question": "Les traditions culturelles établies méritent d'être préservées face aux changements sociaux rapides.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "Cette charte reconnaîtra les racines judéo-chrétiennes de la France. Un peuple qui oublie d’où il vient est un peuple qui s’efface.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "le peuple français doit pouvoir décider, par référendum, de toute question législative.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 0,
+   "citation": "Les institutions de la Ve République sont bonnes, c’est leur dévoiement qui a conduit à cette situation.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 27,
+   "question": "La liberté individuelle doit primer sur les politiques collectives d'égalisation des conditions de vie.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "Liberté pour que chaque Français puisse garder le fruit de son travail.",
+   "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+   "date_source": "2026-08-26"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "Notre système est à bout de souffle, il faut tout changer.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "une loi de programmation militaire comportant cette fois une trajectoire budgétaire sincère et sanctuarisée, pour atteindre 100 milliards d’euros à la fin du quinquennat",
+   "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+   "date_source": "2026-07-14"
+  },
+  {
+   "question_id": 32,
+   "question": "L'enseignement privé doit recevoir moins de financement public que l'enseignement public.",
+   "theme": "Éducation",
+   "valeur": -2,
+   "citation": "la liberté de choisir rendue aux familles, la règle des 80-20 supprimée.",
+   "url": "https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf",
+   "date_source": "2026-08-31"
+  },
+  {
+   "question_id": 33,
+   "question": "L'école doit davantage valoriser la discipline, l'effort et l'autorité des enseignants.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "Une droite qui remet l’école au centre, pour transmettre les savoirs, et où l’enseignant est respecté.",
+   "url": "https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/",
+   "date_source": "2025-06-16"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Refonder la PAC comme outil de souveraineté et de sécurisation du revenu agricole",
+   "url": "https://republicains.fr/wp-content/uploads/2026/03/LR_Agriculture.pdf",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 38,
+   "question": "La semaine de travail doit être réduite à 32 heures sans perte de salaire.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Dire la vérité, c’est dire qu’on ne peut pas vivre mieux en travaillant moins.",
+   "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+   "date_source": "2026-02-12"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "l’idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation.",
+   "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+   "date_source": "2026-05-31"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "Je veux qu’elles soient désormais obligatoires et, grâce à cette charte, elles le seront.",
+   "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
+   "date_source": "2026-09-02"
+  },
+  {
+   "question_id": 44,
+   "question": "Les pesticides de synthèse doivent être interdits dans l'agriculture française d'ici 2030.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Sur les produits phytosanitaires, cela implique d’abandonner les trajectoires arbitraires, telles que l’objectif uniforme de réduction de 50 % fixé par la stratégie Ecophyto 2030",
+   "url": "https://republicains.fr/wp-content/uploads/2026/03/LR_Agriculture.pdf",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 48,
+   "question": "La prise en charge de la dépendance des personnes âgées doit être intégralement couverte par la Sécurité Sociale.",
+   "theme": "Santé & Social",
+   "valeur": -1,
+   "citation": "je pense qu’il faut aussi traiter la question de la dépendance par un système d’assurance obligatoire et solidaire.",
+   "url": "https://republicains.fr/actualites/2025/08/28/bruno-retailleau-la-france-nest-pas-condamnee-au-chaos/",
+   "date_source": "2025-08-28"
+  },
+  {
+   "question_id": 49,
+   "question": "L'encadrement des loyers doit être généralisé dans toutes les grandes villes françaises.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Nous supprimerons l’encadrement des loyers, lèverons les interdictions de louer liées au DPE",
+   "url": "https://republicains.fr/wp-content/uploads/2026/05/LR_Logement.pdf",
+   "date_source": "2026-05-28"
+  },
+  {
+   "question_id": 51,
+   "question": "La Gestation Pour Autrui (GPA) doit rester totalement interdite en France.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "La GPA éthique, c’est comme la drogue récréative. C’est une tromperie sémantique.",
+   "url": "https://republicains.fr/actualites/2025/08/28/bruno-retailleau-la-france-nest-pas-condamnee-au-chaos/",
+   "date_source": "2025-08-28"
+  },
+  {
+   "question_id": 52,
+   "question": "La représentation proportionnelle doit être introduite aux élections législatives.",
+   "theme": "Démocratie",
+   "valeur": -2,
+   "citation": "Instaurer la proportionnelle, c’est graver l’instabilité dans nos institutions.",
+   "url": "https://republicains.fr/actualites/2025/06/16/bruno-retailleau-mai-68-a-fabrique-des-barbares/",
+   "date_source": "2025-06-16"
+  },
+  {
+   "question_id": 55,
+   "question": "La France doit rester dans le commandement intégré de l'Organisation du Traité de l'Atlantique Nord (OTAN).",
+   "theme": "International",
+   "valeur": 1,
+   "citation": "Pas en sortant de l’OTAN comme le proposent certains – ce serait un cadeau inespéré fait à nos adversaires stratégiques",
+   "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+   "date_source": "2026-07-14"
+  },
+  {
+   "question_id": 57,
+   "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "le port de l’uniforme encouragé",
+   "url": "https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf",
+   "date_source": "2026-08-31"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "La France cessera d’ajouter des contraintes nationales aux règles européennes, sauf nécessité impérieuse clairement justifiée et assumée devant le Parlement.",
+   "url": "https://republicains.fr/wp-content/uploads/2026/03/LR_Agriculture.pdf",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 62,
+   "question": "L'inscription du droit à l'avortement dans la Constitution (mars 2024) doit être maintenue et consolidée.",
+   "theme": "Société",
+   "valeur": -1,
+   "citation": "Scrutin n°136 - séance du 28 février 2024 sur l'article unique constituant l'ensemble du projet de loi constitutionnelle relatif à la liberté de recourir à l'interruption volontaire de grossesse",
+   "url": "https://www.senat.fr/scrutin-public/2023/scr2023-136.html",
+   "date_source": "2024-02-28"
+  }
+ ]
+}

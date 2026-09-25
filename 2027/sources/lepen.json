@@ -1,0 +1,192 @@
+{
+ "candidat": "Marine Le Pen",
+ "parti": "Rassemblement national",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Marine Le Pen est candidate déclarée à l'élection présidentielle de 2027 : le 7 juillet 2026, sur le plateau du 20 heures de TF1, elle a déclaré « Ce soir, je suis candidate à l'élection présidentielle et je ne changerai pas d'avis » (franceinfo, Public Sénat). Le même jour, la cour d'appel de Paris (affaire des assistants parlementaires européens du FN) l'a condamnée à 3 ans d'emprisonnement dont 2 avec sursis, 100 000 euros d'amende et 45 mois d'inéligibilité dont 30 avec sursis, soit 15 mois ferme. Selon Le Club des Juristes, en raison de l'exécution provisoire ordonnée en première instance et effective depuis le 31 mars 2025, ces 15 mois sont intégralement écoulés : elle peut se présenter. Elle a annoncé un pourvoi en cassation, qu'elle présente comme suspendant la peine de prison (donc le bracelet électronique) : « Je ferai donc campagne, sans bracelet électronique » ; Public Sénat précise qu'en cas de rejet du pourvoi, un juge d'application des peines pourrait encore statuer sur la peine de prison. Elle a lancé sa campagne avec un discours de rentrée à Hénin-Beaumont le 13 septembre 2026 (LCP, TF1 Info du 16 septembre 2026) et indique que Jordan Bardella serait son Premier ministre. Le programme présidentiel 2027 complet n'est pas encore publié : elle a annoncé le 16 septembre 2026 détailler « début octobre » sa trajectoire budgétaire et son contre-budget (TF1 Info).",
+  "sources": [
+   "https://www.franceinfo.fr/politique/marine-le-pen/je-suis-candidate-a-l-election-presidentielle-marine-le-pen-annonce-son-pourvoi-en-cassation-apres-sa-condamnation-allegee-en-appel_8098361.html",
+   "https://www.publicsenat.fr/actualites/politique/presidentielle-marine-le-pen-est-candidate-et-se-pourvoit-en-cassation",
+   "https://www.leclubdesjuristes.com/justice/affaire-des-assistants-parlementaires-du-fn-coup-darret-a-la-candidature-de-marine-le-pen-16827/",
+   "https://www.tf1info.fr/politique/direct-video-objectif-2027-marine-le-pen-candidate-du-rassemblement-national-invitee-de-lci-suivez-l-emission-live-streaming-mercredi-16-septembre-2026-2464561.html",
+   "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751"
+  ]
+ },
+ "positions_documentees": 19,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "apportera la preuve que l'on peut faire ces 125 milliards d'économies",
+   "url": "https://www.tf1info.fr/politique/direct-video-objectif-2027-marine-le-pen-candidate-du-rassemblement-national-invitee-de-lci-suivez-l-emission-live-streaming-mercredi-16-septembre-2026-2464561.html",
+   "date_source": "2026-09-16"
+  },
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": 0,
+   "citation": "IFF à la place de la taxe sur les holdings et de l'IFI",
+   "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+   "date_source": "2025-10-23"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Poursuivre la baisse des impôts de production (CVAE) pour stimuler les implantations industrielles en France",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": 0,
+   "citation": "car le rôle de l'État est assumé",
+   "url": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+   "date_source": "2024-09-06"
+  },
+  {
+   "question_id": 9,
+   "question": "Le droit du sol doit être supprimé ou fortement restreint.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Suppression du droit du sol",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 13,
+   "question": "La légalisation du cannabis à usage récréatif doit être envisagée.",
+   "theme": "Sécurité",
+   "valeur": -2,
+   "citation": "Durcir la lutte contre le trafic et la consommation de drogue",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "Sortir des règles européennes de fixation des prix de l'énergie qui affaiblissent notre compétitivité",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "Défendre la qualité de vie des Français en refusant toute écologie punitive",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Je crois à la puissance du référendum, je crois que les Français ne sont pas entendus depuis trop d'années",
+   "url": "https://www.tf1info.fr/politique/direct-video-objectif-2027-marine-le-pen-candidate-du-rassemblement-national-invitee-de-lci-suivez-l-emission-live-streaming-mercredi-16-septembre-2026-2464561.html",
+   "date_source": "2026-09-16"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": 1,
+   "citation": "Sanctuariser la trajectoire budgétaire de la Loi de Programmation Militaire",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "Suspension de toutes les régularisations de clandestins par les préfets",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Instaurer l'obligation de dépôt des demandes d'asile dans les ambassades et consulats",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "Mise en place des peines planchers pour les récidivistes",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 43,
+   "question": "La France devrait sortir de la zone euro ou en renégocier en profondeur les règles.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "Négocier une réforme du mandat de la BCE pour la tourner vers l'emploi, la productivité et le financement de projets stratégiques de long terme.",
+   "url": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+   "date_source": "2024-09-06"
+  },
+  {
+   "question_id": 45,
+   "question": "La vente de véhicules thermiques neufs doit être interdite avant 2035.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Renoncer à l'interdiction de la vente des voitures à moteur thermique à l'horizon 2035",
+   "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+   "date_source": "2024-06-25"
+  },
+  {
+   "question_id": 47,
+   "question": "L'euthanasie active doit être légalisée en France pour les malades en fin de vie.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Scrutin public n°8280 sur l'ensemble de la proposition de loi relative au droit à l'aide à mourir (lecture définitive).",
+   "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/8280",
+   "date_source": "2026-07-15"
+  },
+  {
+   "question_id": 56,
+   "question": "L'aide publique au développement doit être augmentée pour atteindre l'objectif fixé par l'ONU (0,7 % du RNB).",
+   "theme": "International",
+   "valeur": -1,
+   "citation": "Rationalisation de l'Aide Publique au Développement",
+   "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+   "date_source": "2025-10-23"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Nous allons supprimer l'intégralité des sur-normes, ça va être de l'oxygène pour nos chefs d'entreprise mais aussi pour nos agriculteurs",
+   "url": "https://www.tf1info.fr/politique/direct-video-objectif-2027-marine-le-pen-candidate-du-rassemblement-national-invitee-de-lci-suivez-l-emission-live-streaming-mercredi-16-septembre-2026-2464561.html",
+   "date_source": "2026-09-16"
+  },
+  {
+   "question_id": 62,
+   "question": "L'inscription du droit à l'avortement dans la Constitution (mars 2024) doit être maintenue et consolidée.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "Scrutin public n°3289 sur l'ensemble du projet de loi constitutionnelle relatif à la liberté de recourir à l'interruption volontaire de grossesse (première lecture).",
+   "url": "https://www.assemblee-nationale.fr/dyn/16/scrutins/3289",
+   "date_source": "2024-01-30"
+  }
+ ]
+}

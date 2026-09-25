@@ -1,0 +1,190 @@
+{
+ "candidat": "Édouard Philippe",
+ "parti": "Horizons",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027. Candidature annoncée dans un entretien au Point le 3 septembre 2024 (rapportée par franceinfo le 2024-09-04) ; lancement officiel de la campagne lors d'un grand meeting à l'Adidas Arena (Paris) le 5 juillet 2026 ; comité de campagne annoncé le 8 septembre 2026, avec départ de la présidence exécutive d'Horizons à compter du 1er octobre 2026 (remplacé par Christophe Béchu) pour rassembler la droite et le centre. Maire du Havre.",
+  "sources": [
+   "https://www.franceinfo.fr/politique/edouard-philippe/presidentielle-2027-edouard-philippe-se-declare-candidat-et-acte-sa-rupture-avec-emmanuel-macron_6762466.html",
+   "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "https://www.edouardphilippe.fr/actualites/le-comite-de-campagne-est-lance"
+  ]
+ },
+ "positions_documentees": 19,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "en baissant la dépense plutôt qu'en augmentant les impôts. Et en travaillant plus.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques improductives en moins",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Protéger le marché européen face à la concurrence déloyale chinoise, en imposant transferts de technologie, quotas de production et joint-ventures dans les secteurs stratégiques",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "les pouvoirs publics doivent se concentrer sur ce qu'ils peuvent faire, et laisser les Français libres d'inventer la vie qui va avec.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 8,
+   "question": "Les flux migratoires vers la France doivent être fortement réduits.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Edouard Philippe mettra fin à l’immigration subie pour retrouver la maîtrise de notre destin migratoire",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "Mettre en place des peines planchers pour les infractions les plus graves",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": -2,
+   "citation": "Une Europe que nous devons approfondir pour rester libres !",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 15,
+   "question": "L'Union européenne est globalement bénéfique pour la France.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "comme vous, je crois en l'Europe politique que nous construisons avec nos partenaires.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Assurer notre souveraineté énergétique en relançant le nucléaire , en développant les renouvelables et en électrifiant massivement nos usages.",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "pas de nouvelle norme et de nouvel impôt sur le quinquennat.",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 27,
+   "question": "La liberté individuelle doit primer sur les politiques collectives d'égalisation des conditions de vie.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "les pouvoirs publics doivent se concentrer sur ce qu'ils peuvent faire, et laisser les Français libres d'inventer la vie qui va avec.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 28,
+   "question": "Les inégalités économiques constituent le problème le plus urgent à résoudre en France.",
+   "theme": "Valeurs",
+   "valeur": -1,
+   "citation": "je ne suis pas le candidat de la lutte des classes",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "la France doit se réarmer et donner à ses armées la masse qui leur manque pour défendre notre souveraineté et dissuader nos adversaires.",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 38,
+   "question": "La semaine de travail doit être réduite à 32 heures sans perte de salaire.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "J'assume de dire aux cadres et aux employés du secteur public et privé qu'il faudra travailler plus longtemps.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Il reviendra au Parlement de voter tous les ans, une liste de pays sûrs qui permettra d'accélérer les procédures et de mettre un terme aux dérives.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "Mettre en place des peines planchers pour les infractions les plus graves",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+   "date_source": "2026"
+  },
+  {
+   "question_id": 54,
+   "question": "La discrimination positive par quotas est un outil adapté pour corriger les inégalités structurelles.",
+   "theme": "Valeurs",
+   "valeur": -1,
+   "citation": "la seule différence qui compte, c'est celle du mérite.",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 57,
+   "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
+   "theme": "Éducation",
+   "valeur": -1,
+   "citation": "Liberté d'imposer ou non s'ils le veulent, le port d'un uniforme",
+   "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena",
+   "date_source": "2026-07-05"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "zéro surtransposition agricole",
+   "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+   "date_source": "2026"
+  }
+ ]
+}

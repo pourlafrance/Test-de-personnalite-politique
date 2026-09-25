@@ -1,0 +1,252 @@
+{
+ "candidat": "Juan Branco",
+ "parti": "Les Ruches",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Intention de se présenter annoncée le 19 décembre 2025 (page officielle ruches.org : « Il a annoncé le 19 décembre 2025 son intention de se présenter à l'élection présidentielle de 2027 »), confirmée par Sud Radio (interview du 19 décembre 2025 : « C'est officiel [...] Juan Branco se présente à l'élection présidentielle de 2027 »). Candidature non validée à ce stade : pas de dépôt de parrainages (échéance indiquée par la presse : 12 mars 2027).",
+  "sources": [
+   "https://ruches.org/juan-branco",
+   "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle"
+  ]
+ },
+ "positions_documentees": 26,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Baisse des prélèvements obligatoires et des dépenses publiques",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 3,
+   "question": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) doit être significativement augmenté.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Déconcentration du SMIC, avec réhaussement du seuil minimal national à 1500 euros net.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Rétablissement de l’ISF avec un mécanisme de précompte sur les droits de succession.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Adoption d’une politique sociale, commerciale et écologique fondée sur des droits douaniers",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "Sortie de l’Union Européenne, de l’euro, du Conseil de l’Europe et/ou de l’espace Schengen.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Construction de 14 EPR 2, développement d’une filière intégrée RNR-NA.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 19,
+   "question": "Le système de santé doit rester entièrement public, sans aucune privatisation.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "Nationalisation du marché de l’électricité, de l’eau, de la santé, des télécoms et des autoroutes",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 20,
+   "question": "Les aides sociales (Revenu de Solidarité Active, allocations) doivent être conditionnées à une démarche active de retour à l'emploi.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Déconditionnalisation du RSA, attribution automatique des minima sociaux",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Création d’un RIC en toutes matières.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Référendum fondé sur l’article 11 de la Constitution proposant la convocation d’une assemblée constituante dotée d’un mandat de 12 mois",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "Nous proposons l’adoption par référendum des mesures de rupture constitutionnelles et législatives dans les six mois qui suivront l’accession au pouvoir.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 31,
+   "question": "La mondialisation économique a plutôt été néfaste pour les travailleurs français.",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "L’absence de contrôle sur nos politiques douanières et commerciales a créé des déséquilibres abyssaux qui ont détruit notre industrie",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 32,
+   "question": "L'enseignement privé doit recevoir moins de financement public que l'enseignement public.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "Refonte de la carte scolaire et absorption du parc scolaire privé, fin du système issue de « l’école libre ».",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Sauvetage de l’agriculture et des agriculteurs",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 35,
+   "question": "Les grandes plateformes numériques (Google, Amazon, Meta…) doivent être beaucoup plus strictement régulées.",
+   "theme": "Numérique",
+   "valeur": 1,
+   "citation": "Interdiction de toutes les plateformes commerciales étrangères (Airbnb, Uber...) se positionnant sur des marchés à vocation monopolistique",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 39,
+   "question": "Les industries énergétiques et les transports doivent être renationalisés.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Expropriation des acteurs privés et nationalisation du marché de la distribution de l'électricité : fin de la concurrence dans le secteur énergétique.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Mise en place de critères objectivables d’intégration concernant les étrangers, accompagnée d’obligations de service à la nation, dans le cadre des régularisations de personnes dénuées de titres de séjour.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Accroissement des moyens relatifs au traitement administratif des questions migratoires aux fins de réduction des temps d’attente.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 43,
+   "question": "La France devrait sortir de la zone euro ou en renégocier en profondeur les règles.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "Référendums sur l’appartenance à l’Union Européenne et à l’euro",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 44,
+   "question": "Les pesticides de synthèse doivent être interdits dans l'agriculture française d'ici 2030.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "Interdiction à horizon quinquennal des pesticides CMR de catégorie 1et perturbateurs endocriniens identifiés, et réduction des CMR de catégorie.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 48,
+   "question": "La prise en charge de la dépendance des personnes âgées doit être intégralement couverte par la Sécurité Sociale.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Grand plan vieillesse nationalisant la politique de dépendance et incitant lourdement aux regroupements familiaux, ainsi qu’au logement transgénérationnel.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 53,
+   "question": "Le nombre de mandats successifs des élus doit être limité dans le temps.",
+   "theme": "Démocratie",
+   "valeur": 1,
+   "citation": "Changement de la durée du mandat présidentiel (7 ans), avec limitation de trois mandats.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 55,
+   "question": "La France doit rester dans le commandement intégré de l'Organisation du Traité de l'Atlantique Nord (OTAN).",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "Sortie de l’OTAN (commandement intégré ou du Traité).",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 56,
+   "question": "L'aide publique au développement doit être augmentée pour atteindre l'objectif fixé par l'ONU (0,7 % du RNB).",
+   "theme": "International",
+   "valeur": -1,
+   "citation": "réduction de l’aide au développement multilatérale aux chantiers prioritaires et transformation des autres crédits en crédits de coopération",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 58,
+   "question": "Un service civique obligatoire d'un an doit être instauré pour tous les jeunes Français.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "Instauration d’un service d’État, civil et militaire annuel.",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 60,
+   "question": "Les déserts médicaux doivent être combattus par une obligation d'installation des médecins dans les zones sous-dotées.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "accompagnés d’obligations d’exercice en zones sous-dotées, d’une régulation de l’installation décennale",
+   "url": "https://ruches.org/le-projet",
+   "date_source": "2026-09-25"
+  }
+ ]
+}

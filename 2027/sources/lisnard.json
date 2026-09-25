@@ -1,0 +1,299 @@
+{
+ "candidat": "David Lisnard",
+ "parti": "Nouvelle Énergie",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027. Annonce le 31 mars 2026 sur France 2 (confirmée dans l'article du parti du 2 avril 2026), avec démission des Républicains remise à Bruno Retailleau ; lancement de campagne lors d'un grand meeting à Saint-Raphaël début juillet 2026 (articles du 2026-07-10) ; le 2 septembre 2026, il déclare à l'AFP avoir atteint 500 promesses de parrainage d'élus, à confirmer lors de la période officielle en 2027. Il maintient sa proposition de primaire ouverte à droite et au centre (3 septembre 2026). Un directeur de campagne a été nommé (article du 2026-07-02). Aucune investiture officielle ni validation par le Conseil constitutionnel n'existe à la date de recherche.",
+  "sources": [
+   "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-david-lisnard-maire-de-cannes-annonce-sa-candidature-et-quitte-officiellement-les-lr",
+   "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-ouvre-le-chemin-du-sursaut-francais/",
+   "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
+   "https://www.unenouvelleenergie.fr/david-lisnard-franchit-le-cap-des-500-promesses-de-parrainage-pour-2027/"
+  ]
+ },
+ "positions_documentees": 31,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Dépenser moins pour cotiser moins, pour gagner plus. C’est ça la vraie révolution.",
+   "url": "https://www.unenouvelleenergie.fr/david-lisnard-dans-la-grande-interview-il-faut-augmenter-le-salaire-net-et-cotiser-moins-pour-gagner-plus/",
+   "date_source": "2026-05-29"
+  },
+  {
+   "question_id": 2,
+   "question": "L'âge légal de départ à la retraite doit être abaissé pour les carrières longues.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "la norme de l’âge légal de 65 ans est un impératif national urgent pour des raisons d’équilibre financier",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "L’expérience de l’impôt sur la fortune (ISF) devrait nous servir: chaque euro prélevé s’accompagnait de pertes supérieures en capital détruit et en entrepreneurs exilés.",
+   "url": "https://www.unenouvelleenergie.fr/taxe-zucman-ou-les-habits-neufs-du-vieux-collectivisme/",
+   "date_source": "2025-09-25"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Les impôts de production seraient ramenés à la moyenne européenne et la C3S supprimée.",
+   "url": "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/",
+   "date_source": "2026-04-16"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Je veux rompre avec l’étatisme et la bureaucratie qui paralysent la France.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 8,
+   "question": "Les flux migratoires vers la France doivent être fortement réduits.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Diviser par huit la délivrance de titres de séjour",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "supprimer les réductions de peine automatiques, mettre fin aux aménagements dès l’audience, rétablir les peines planchers pour les récidivistes",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 12,
+   "question": "La France doit recruter davantage de forces de l'ordre.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "La première priorité pour la sécurité est celle d’un plan massif de remise à niveau de la police nationale",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "Il importe donc de redéfinir les compétences indispensables à la plus-value européenne",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 15,
+   "question": "L'Union européenne est globalement bénéfique pour la France.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "L’Europe est ainsi une chance pour la France à condition que son organisation et son action évoluent.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "prendre définitivement ses distances avec la vision décroissante et punitive",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Il est plus que temps de sortir de l’ambiguïté et de l’hypocrisie sur le nucléaire et affirmer sa priorité.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "la fiscalité environnementale doit respecter trois règles : d’abord se faire à taxation totale constante",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 21,
+   "question": "L'État doit construire massivement des logements sociaux pour répondre à la crise du logement.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "suppression de l’article 55 de la loi SRU",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 22,
+   "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "interdiction du voile à l’université",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "L’article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays",
+   "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+   "date_source": "2026-06-17"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 0,
+   "citation": "La Constitution de 1958 est née des mains du peuple. C’est au peuple qu’il revient de la restaurer.",
+   "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+   "date_source": "2026-06-17"
+  },
+  {
+   "question_id": 27,
+   "question": "La liberté individuelle doit primer sur les politiques collectives d'égalisation des conditions de vie.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "prône la maitrise par chacun de son existence, sans que l’Etat n’ait à interférer, par des aides sociales ou une infantilisation injustifiées",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "Notre pays a besoin d’un sursaut. Je veux rompre avec l’étatisme et la bureaucratie qui paralysent la France.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 32,
+   "question": "L'enseignement privé doit recevoir moins de financement public que l'enseignement public.",
+   "theme": "Éducation",
+   "valeur": -2,
+   "citation": "L’enseignement privé n’est pas le problème. Il est souvent la réponse à une école publique disqualifiée.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 33,
+   "question": "L'école doit davantage valoriser la discipline, l'effort et l'autorité des enseignants.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "nous rétablirons l’autorité du professeur, le primat du cours sur l’animation, et la logique de progression sur celle du ressenti",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Nous voulons rendre aux agriculteurs la liberté de produire, la possibilité d’innover, le droit d’être rémunérés justement.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 36,
+   "question": "La flat tax (Prélèvement Forfaitaire Unique) sur les revenus du capital doit être supprimée au profit d'une imposition progressive.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Le « prélèvement forfaitaire unique » serait confirmé comme socle, dans une logique de flat-tax lisible et stable.",
+   "url": "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/",
+   "date_source": "2026-04-16"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "supprimer toute possibilité d’être régularisé après être entré clandestinement sur le territoire",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Le droit d’asile doit être réservé aux situations le justifiant.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "rétablir les peines planchers pour les récidivistes",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 44,
+   "question": "Les pesticides de synthèse doivent être interdits dans l'agriculture française d'ici 2030.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "l’usage raisonné des phytosanitaires sur base scientifique",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 47,
+   "question": "L'euthanasie active doit être légalisée en France pour les malades en fin de vie.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "je ne suis pas favorable à une telle loi.",
+   "url": "https://www.unenouvelleenergie.fr/david-lisnard-je-peux-trouver-dieu-dans-une-foret-une-montagne-ou-dans-la-beaute-dun-opera-de-mozart/",
+   "date_source": "2025-01-16"
+  },
+  {
+   "question_id": 51,
+   "question": "La Gestation Pour Autrui (GPA) doit rester totalement interdite en France.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "Je pense que la GPA est contraire à un principe fondamental de la société libérale : la dignité du corps humain.",
+   "url": "https://www.unenouvelleenergie.fr/david-lisnard-dans-la-grande-interview-il-faut-augmenter-le-salaire-net-et-cotiser-moins-pour-gagner-plus/",
+   "date_source": "2026-05-29"
+  },
+  {
+   "question_id": 56,
+   "question": "L'aide publique au développement doit être augmentée pour atteindre l'objectif fixé par l'ONU (0,7 % du RNB).",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "réduction de l’aide publique au développement",
+   "url": "https://www.unenouvelleenergie.fr/la-dette-est-le-prix-de-notre-soumission-et-inversement/",
+   "date_source": "2025-11-06"
+  },
+  {
+   "question_id": 60,
+   "question": "Les déserts médicaux doivent être combattus par une obligation d'installation des médecins dans les zones sous-dotées.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Mais cela ne passe ni par la contrainte, ni par les injonctions administratives.",
+   "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+   "date_source": "2026-09-25"
+  }
+ ]
+}

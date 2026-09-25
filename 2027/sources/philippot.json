@@ -1,0 +1,171 @@
+{
+ "candidat": "Florian Philippot",
+ "parti": "Les Patriotes",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré : Florian Philippot, président des Patriotes, a annoncé sa candidature à l'élection présidentielle de 2027 le 9 mai 2026 sur France 2 (franceinfo, 2026-05-09). Il déclare viser les 500 parrainages d'élus (il n'en avait obtenu qu'un en 2022) et précise qu'il se rangerait derrière Philippe de Villiers si celui-ci incarnait une candidature souverainiste plus rassembleuse. Sur le site des Patriotes, un texte daté du 2026-09-20 indique : « Il faut continuer de préparer, à l'évidence, l'élection présidentielle. » Aucune source lue à la date de recherche n'indique de retrait ni l'obtention des 500 parrainages.",
+  "sources": [
+   "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-souverainiste-florian-philippot-annonce-sa-candidature-a-l-elysee_7993346.html",
+   "https://les-patriotes.fr/elections-legislatives-creons-le-bloc-souverainiste/"
+  ]
+ },
+ "positions_documentees": 17,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "la solution devra d’abord venir d’une réduction du train de vie de l’Etat",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 2,
+   "question": "L'âge légal de départ à la retraite doit être abaissé pour les carrières longues.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "la France pourra souverainement déterminer les conditions d’accession à la retraite et baisser l’âge de départ si les Français le désirent",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "en instaurant un protectionnisme intelligent qui protège nos industries tout en favorisant l’innovation",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "Développer une planification économique souveraine et cohérente",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "Les peines applicables aux pédocriminels doivent être alourdies",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "la France retrouvera l’ensemble des compétences qu’elle a transférées en tout ou partie à l’Union européenne",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 15,
+   "question": "L'Union européenne est globalement bénéfique pour la France.",
+   "theme": "Europe",
+   "valeur": -2,
+   "citation": "Le Frexit est donc une exigence vitale pour la France.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Investir dans le nucléaire et l’hydroélectricité, sources d’énergie propres et stables.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 24,
+   "question": "Les traditions culturelles établies méritent d'être préservées face aux changements sociaux rapides.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "Réaffirmer que la culture française est un socle commun.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Créer le référendum d’initiative citoyenne (RIC) sur tout sujet et l’inscrire dans la Constitution.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "nous ne souhaitons pas réformer la France à la marge mais bien reprendre le contrôle de notre destin",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 39,
+   "question": "Les industries énergétiques et les transports doivent être renationalisés.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Rétablir les monopoles publics dans le rail et l’énergie.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "il convient donc de réinstaurer les peines planchers et de généraliser les sanctions dès la première infraction",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 43,
+   "question": "La France devrait sortir de la zone euro ou en renégocier en profondeur les règles.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "La sortie de l’euro et l’instauration d’une nouvelle monnaie nationale est une condition absolue de notre bonne santé économique.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 45,
+   "question": "La vente de véhicules thermiques neufs doit être interdite avant 2035.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Préserver la voiture thermique au-delà de 2035.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  },
+  {
+   "question_id": 47,
+   "question": "L'euthanasie active doit être légalisée en France pour les malades en fin de vie.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Nous nous opposons fermement à la proposition de loi sur l’« aide à mourir »",
+   "url": "https://les-patriotes.fr/contre-la-loi-aide-a-mourir-et-pour-une-grande-loi-aide-a-vivre/",
+   "date_source": "2025-06-03"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Supprimer la PAC, ses normes absurdes (tel que le taux de jachère obligatoire) et ses contraintes administratives.",
+   "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/projet-pour-la-france-2026.pdf",
+   "date_source": "2026-09-03"
+  }
+ ]
+}

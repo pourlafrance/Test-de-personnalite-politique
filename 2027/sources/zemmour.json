@@ -1,0 +1,171 @@
+{
+ "candidat": "Éric Zemmour",
+ "parti": "Reconquête",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré, candidature formelle attendue à l'automne. Le 17 septembre 2026 sur BFMTV, Éric Zemmour a déclaré : « Je suis candidat à la présidence de la République, je serai candidat à l'élection présidentielle », en précisant qu'il ne s'agit pas encore d'une déclaration de candidature officielle, attendue à l'automne, vraisemblablement en octobre (Public Sénat, 18/09/2026 ; franceinfo, 19/09/2026 : « acte de candidature » le 17 septembre, campagne officielle prévue cet automne). Il est le président du parti Reconquête ; il avait obtenu 7,07 % au premier tour de 2022.",
+  "sources": [
+   "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027",
+   "https://www.franceinfo.fr/replay-radio/le-brief-politique/eric-zemmour-presque-candidat-a-l-election-presidentielle-de-2027-un-atout-pour-marine-le-pen_8178050.html"
+  ]
+ },
+ "positions_documentees": 17,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Baisser massivement les impôts de production à hauteur de 30 milliards d'euros supplémentaires par an, en supprimant en priorité la Contribution Sociale de Solidarité des Sociétés (C3S)",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Protéger nos entreprises stratégiques en créant un comité dédié chargé de contrôler tous les investissements étrangers",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 9,
+   "question": "Le droit du sol doit être supprimé ou fortement restreint.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Supprimer le droit du sol, ainsi un enfant dont les deux parents sont étrangers ne pourra devenir français qu'après naturalisation, sans aucune automaticité",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "Mettre hors d'état de nuire les criminels les plus dangereux et les terroristes en rétablissant une peine de perpétuité réelle non-compressible",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "Modifier l'article 55 de notre Constitution pour sanctuariser la primauté du droit national sur le droit européen",
+   "url": "https://assets.ericzemmour.fr/document/Programme%20Reconqu%C3%AAte%20Europ%C3%A9ennes%202024.pdf",
+   "date_source": "2024-05-14"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "cela ne justifie en rien la vaste entreprise écolo-punitive",
+   "url": "https://assets.ericzemmour.fr/document/Programme%20Reconqu%C3%AAte%20Europ%C3%A9ennes%202024.pdf",
+   "date_source": "2024-05-14"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Relancer la filière nucléaire qui doit demeurer le socle de notre approvisionnement en électricité",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Favoriser l'usage du référendum afin de faire adopter directement par le peuple français les mesures les plus importantes qui intéressent la vie de la Nation",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 33,
+   "question": "L'école doit davantage valoriser la discipline, l'effort et l'autorité des enseignants.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "excellence dans la transmission des savoirs, méritocratie, respect de l'autorité",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 38,
+   "question": "La semaine de travail doit être réduite à 32 heures sans perte de salaire.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "Revenir pleinement au principe vertueux « Travailler plus pour gagner plus ».",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "Interdire définitivement la régularisation de tout étranger entré illégalement sur le territoire français",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Revenir à l'esprit originel du droit d'asile en le limitant à une centaine d'individus chaque année",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 42,
+   "question": "Des peines minimales obligatoires doivent être rétablies pour les délits en récidive.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "Obliger les juges à sanctionner tous les délinquants et criminels en introduisant des peines planchers pour tous les crimes et délits",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 44,
+   "question": "Les pesticides de synthèse doivent être interdits dans l'agriculture française d'ici 2030.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Stopper les décisions d'interdiction des produits phytosanitaires sans études d'impact économique et sans alternative fiable et supprimer le plan Ecophyto",
+   "url": "https://assets.ericzemmour.fr/document/Programme%20Reconqu%C3%AAte%20Europ%C3%A9ennes%202024.pdf",
+   "date_source": "2024-05-14"
+  },
+  {
+   "question_id": 45,
+   "question": "La vente de véhicules thermiques neufs doit être interdite avant 2035.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Supprimer l'interdiction de la vente de véhicules thermiques à l'horizon 2035",
+   "url": "https://assets.ericzemmour.fr/document/Programme%20Reconqu%C3%AAte%20Europ%C3%A9ennes%202024.pdf",
+   "date_source": "2024-05-14"
+  },
+  {
+   "question_id": 46,
+   "question": "La pratique de la chasse doit être plus strictement réglementée.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Sanctuariser la pratique de la chasse et de la pêche comme des éléments constitutifs de notre patrimoine culturel",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  },
+  {
+   "question_id": 57,
+   "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "rendant le port de la blouse obligatoire à l'école primaire",
+   "url": "https://web.archive.org/web/20241212134935/https://www.parti-reconquete.fr/programme",
+   "date_source": "2024-12-12"
+  }
+ ]
+}
