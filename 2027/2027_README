@@ -51,8 +51,7 @@ explicitement mixte, -1 désaccord partiel, -2 désaccord total ferme et explici
   participants aux primaires en cours sont listés, avec leurs sources, dans le panneau « Candidats pris en compte »
   de la page d'accueil de l'édition.
 - Les faits cités dans le contexte des 62 questions (chiffres, états du droit) ont été recontrôlés le 25 septembre 2026
-  sur des sources officielles : 24 contextes ont été mis à jour. Le détail, y compris les éléments non vérifiables,
-  est dans [`sources/AUDIT-FAITS.md`](./sources/AUDIT-FAITS.md).
+  sur des sources officielles : 59 contextes ont été mis à jour. Les chiffres non confirmés ont été retirés. Le détail est dans [`sources/AUDIT-FAITS.md`](./sources/AUDIT-FAITS.md).
 
 ## Limites
 
