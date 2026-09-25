@@ -1,0 +1,164 @@
+<!--
+  Test de personnalité politique : FAQ
+  Copyright (C) 2025 @miseenproduvendredi
+  Ce programme est distribué sous GNU Affero General Public License v3.0
+  https://www.gnu.org/licenses/agpl-3.0.fr.html
+  Des restrictions supplémentaires s'appliquent :
+  usage commercial, neutralité politique, données personnelles
+  → voir LICENSE_SUPPLEMENT.txt à la racine du dépôt
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23000091'/%3E%3Crect x='1' width='1' height='2' fill='%23fff'/%3E%3Crect x='2' width='1' height='2' fill='%23E1000F'/%3E%3C/svg%3E">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ · Test de personnalité politique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Spectral:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="charte.css">
+<style>
+/* Styles propres à la page, sur la base de la charte commune */
+header.page { padding: 28px 0 8px; text-align: center; }
+header.page h1 { font-size: clamp(26px, 5vw, 38px); font-weight: 700; margin-bottom: 10px; }
+header.page .sub { font-size: 16px; color: var(--plf-texte-2); line-height: 1.6; max-width: 56ch; margin: 0 auto; }
+main { padding: 20px 0 8px; }
+.bloc { max-width: 640px; margin: 0 auto; }
+
+.slabel { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--plf-muted); margin: 24px 0 10px; border-top: 1px solid var(--plf-ink); padding-top: 12px; text-align: center; }
+
+.faq { margin-bottom: 8px; background: var(--plf-surface); border: 1px solid var(--plf-bord); overflow: hidden; }
+.faq-btn { width: 100%; text-align: left; background: none; border: none; padding: 14px 16px; min-height: 44px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: inherit; font-size: 15px; font-weight: 600; color: var(--plf-ink); gap: 8px; }
+.faq-btn:hover { background: var(--plf-hover); }
+.faq-arrow { font-size: 11px; color: var(--plf-muted); transition: transform .2s; flex-shrink: 0; }
+.faq-btn.open .faq-arrow { transform: rotate(180deg); }
+.faq-body { display: none; padding: 14px 16px 16px; border-top: 1px solid var(--plf-filet); }
+.faq-body.open { display: block; }
+.faq-body p { font-size: 14px; line-height: 1.75; color: var(--plf-texte-2); margin: 0 0 9px; }
+.faq-body p:last-child { margin-bottom: 0; }
+.faq-body ul { padding-left: 18px; margin: 0 0 9px; }
+.faq-body li { font-size: 14px; line-height: 1.7; color: var(--plf-texte-2); margin-bottom: 5px; }
+.faq-body code { font-family: var(--plf-mono); font-size: 12.5px; background: var(--plf-hover); border: 1px solid var(--plf-bord); padding: 1px 5px; color: var(--plf-ink); }
+.bias-box { background: var(--plf-papier); border: 1px solid var(--plf-bord); padding: 12px 14px; margin-bottom: 10px; }
+.bias-box:last-child { margin-bottom: 0; }
+.bias-title { font-size: 14px; font-weight: 700; color: var(--plf-accent); margin-bottom: 7px; }
+.warn-box { background: #F8F4E9; border: 1px solid #D9C38A; padding: 10px 12px; margin-top: 6px; }
+.warn-box strong { font-size: 13px; color: #7A5A1F; }
+.warn-box p { font-size: 13px; color: #7A5A1F; margin: 4px 0 0; line-height: 1.6; }
+</style>
+</head>
+<body class="plf">
+
+<div class="plf-wrap">
+  <header class="plf-marque">
+    <span class="plf-drapeau" aria-hidden="true"><span></span><span></span><span></span></span>
+    <a class="plf-marque-nom" href="index.html"><span class="plf-mot-bleu">Pour</span> <span class="plf-mot-blanc">la</span> <span class="plf-mot-rouge">France</span></a>
+    <span class="plf-marque-devise">Indépendant · anonyme · open source</span>
+  </header>
+  <div class="plf-filet-tricolore" aria-hidden="true"><span></span><span></span><span></span></div>
+  <nav class="plf-nav">
+    <a href="index.html" onclick="if(history.length>1){history.back();return false}">← Retour</a>
+    <a href="index.html">Accueil</a>
+  </nav>
+
+  <header class="page">
+    <h1>Questions fréquentes</h1>
+    <p class="sub">Anonymat, indépendance, méthodologie et limites du test, regroupés sur une seule page.</p>
+  </header>
+
+  <main><div class="bloc">
+
+    <div class="slabel">Anonymat &amp; indépendance</div>
+
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Les données du test sont-elles collectées ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p><strong>Non. Aucune donnée n'est collectée, transmise ou stockée.</strong></p>
+        <p>Le test fonctionne entièrement dans votre navigateur. Vos réponses ne quittent jamais votre appareil : il n'y a ni serveur qui les reçoit, ni base de données qui les enregistre, ni cookie de traçage, ni analytique tiers.</p>
+        <p>Techniquement, la page est un fichier HTML/JavaScript autonome : tout le calcul se fait côté client, en mémoire vive. Dès que vous fermez l'onglet, tout disparaît. Vous pouvez le vérifier vous-même en consultant le code source, disponible intégralement sur <a href="https://github.com/pourlafrance/Test-de-personnalite-politique" target="_blank" rel="noopener">GitHub</a>.</p>
+        <p>Ce choix est délibéré : vos opinions politiques vous appartiennent, et elles n'ont pas à être connues d'un tiers, même anonymisées.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Le projet est-il indépendant ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p><strong>Oui.</strong> Projet citoyen indépendant : sans affiliation politique et sans financement partisan.</p>
+        <p>Le test présente chaque position de manière équilibrée, sans jugement et sans orientation. Il ne vous dit pas pour qui voter. Il vous aide à comprendre les programmes et à identifier vos propres convictions.</p>
+      </div>
+    </div>
+
+    <div class="slabel">Méthodologie &amp; limites</div>
+
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Pourquoi le test ne couvre-t-il pas l'intégralité des programmes ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Les 62 questions couvrent les <strong>grands axes programmatiques</strong> : les positions sur lesquelles les candidats se distinguent clairement et qui sont bien documentées. Mais les programmes présidentiels font en moyenne <strong>80 à 150 pages chacun</strong>. Une couverture vraiment exhaustive représenterait plutôt 150 à 200 questions.</p>
+        <p>Ce choix éditorial vise l'équilibre entre exhaustivité et faisabilité pour l'utilisateur. Deux raisons pratiques expliquent la limite :</p>
+        <ul>
+          <li><strong>Abandon :</strong> Au-delà de 45 minutes, le taux de complétion chute fortement. 62 questions prennent déjà environ 20 minutes : ajouter davantage réduirait le nombre de personnes qui vont au bout, et donc l'utilité du test.</li>
+          <li><strong>Encodage :</strong> Chaque question nécessite d'encoder les positions de tous les candidats, de les sourcer individuellement et de les relire de façon contradictoire. 200 questions × 12 candidats = 2 400 positions à documenter et vérifier, un travail considérable.</li>
+        </ul>
+        <p>Ce qui n'est pas couvert comprend notamment : la fiscalité sectorielle fine, la politique étrangère détaillée, la réforme pénale de fond, la politique numérique avancée (IA, souveraineté des données), la santé mentale, l'enseignement supérieur, ou le financement des partis. Ce test est un point de départ, pas un panorama exhaustif.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Quels sont les micro-biais mathématiques du test ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Deux effets de bord sont inhérents à l'algorithme. Ils ne constituent pas des bugs, mais il est utile de les connaître si vous souhaitez interpréter finement les résultats.</p>
+
+        <div class="bias-box">
+          <div class="bias-title">A. La "prime au flou" : le score <code>0</code></div>
+          <p>Lorsqu'un candidat n'a pas de position claire sur un sujet (encodé à <code>0</code>), sa compatibilité avec un utilisateur votant <code>+2</code> (Totalement d'accord) est mécaniquement de <strong>50 %</strong> : <code>1 − |2 − 0| / 4 = 0,50</code>.</p>
+          <p><strong>L'effet :</strong> Un candidat aux positions floues ou centristes (beaucoup de <code>0</code>) obtiendra une compatibilité d'environ 50 % avec tout le monde, ni très proche ni très éloigné. Cela favorise légèrement les candidats aux programmes vagues sur les sujets clivants.</p>
+          <p><strong>Sur le Filtre Décisif :</strong> Le critère d'élimination est <code>(vote &gt; 0 ET position &lt; 0) OU (vote &lt; 0 ET position &gt; 0)</code>. Un candidat à <code>0</code> survit à toute ligne rouge sur ce sujet : son absence de position n'est pas une opposition. C'est logique, mais cela signifie que les positions non tranchées protègent du filtre.</p>
+          <div class="warn-box">
+            <strong>"Sans opinion" n'est pas un skip</strong>
+            <p>Répondre "Sans opinion" assigne la valeur <code>0</code> à votre vote, ce qui <strong>tire le score vers 50 %</strong> sur cette question. Si vous ne connaissez pas un sujet, utilisez <strong>Je ne connais pas ce sujet</strong> : la question est alors totalement exclue du calcul, sans biaiser le résultat.</p>
+          </div>
+        </div>
+
+        <div class="bias-box">
+          <div class="bias-title">B. Les coordonnées de la boussole politique</div>
+          <p>La position de l'<strong>utilisateur</strong> sur la boussole est calculée dynamiquement à partir de ses réponses (somme pondérée sur les axes gauche/droite et progressiste/conservateur). En revanche, la position des <strong>candidats</strong> sur la boussole est codée en dur, c'est une estimation.</p>
+          <p>Cela signifie que si l'on calculait la position d'un candidat en passant ses réponses encodées dans le même algorithme, elle ne correspondrait pas nécessairement exactement aux coordonnées affichées. C'est une pratique standard (les politologues placent généralement les partis de façon absolue sur ces axes), mais la boussole doit être lue comme une <strong>représentation orientée</strong>, non comme un résultat de calcul pur.</p>
+        </div>
+      </div>
+    </div>
+
+  </div></main>
+
+  <footer class="plf-pied">
+    <div class="plf-filet-tricolore plf-filet-tricolore--court" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p>Pour la France · projet citoyen indépendant · Liberté, Égalité, Fraternité</p>
+    <p>
+      <a href="index.html">Accueil</a> ·
+      <a href="faq.html">FAQ</a> ·
+      <a href="https://x.com/fracoiselibre" target="_blank" rel="noopener">Compte X</a> ·
+      <a href="https://github.com/pourlafrance/Test-de-personnalite-politique" target="_blank" rel="noopener">Code source (GitHub)</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+function toggle(btn){
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+</script>
+</body>
+</html>

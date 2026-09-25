@@ -1,0 +1,251 @@
+/*
+  Charte graphique commune - Pour la France
+  Partagée par : Test de personnalité politique · Qu'auriez-vous voté ? · Subventions FR
+  Source : « Charte Pour la France » (document de référence).
+  Ce fichier est copié à l'identique dans les trois dépôts.
+*/
+
+:root {
+  /* Couleurs */
+  --plf-accent: #000091;        /* Bleu République : liens, bouton principal, état actif */
+  --plf-accent-hover: #1B1BC4;
+  --plf-ink: #1A1D21;           /* Encre : titres et texte courant */
+  --plf-texte-2: #4A4640;       /* texte secondaire */
+  --plf-muted: #6B6660;         /* libellés, légendes */
+  --plf-papier: #FBFAF8;        /* fond de page */
+  --plf-surface: #FFFFFF;       /* surfaces, cartes */
+  --plf-bord: #E4E1DC;          /* bordure unique 1 px */
+  --plf-bord-2: #D8D4CE;        /* bordure bouton neutre */
+  --plf-filet: #EDEBE7;         /* séparateurs légers */
+  --plf-hover: #F3F1ED;         /* fond de survol */
+  --plf-inactif: #C9C4BC;       /* repère géométrique inactif */
+  --plf-rouge: #E1000F;         /* filet tricolore et marque */
+  /* Échelle sémantique (réservée aux échelles de réponse) */
+  --plf-contre: #A03A28;
+  --plf-contre-2: #C06B52;
+  --plf-neutre: #A8A29A;
+  --plf-pour-2: #5A9376;
+  --plf-pour: #2F6B4F;
+  /* Typographie */
+  --plf-serif: 'Spectral', Georgia, serif;
+  --plf-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --plf-mono: ui-monospace, 'SFMono-Regular', monospace;
+}
+
+/* ── Base ─────────────────────────────────────────── */
+.plf * { box-sizing: border-box; }
+.plf {
+  margin: 0;
+  background: var(--plf-papier);
+  color: var(--plf-ink);
+  font-family: var(--plf-sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+@media (max-width: 560px) { .plf { font-size: 16px; } }
+.plf a { color: var(--plf-accent); text-decoration: none; }
+.plf a:hover { color: var(--plf-accent-hover); text-decoration: underline; }
+
+.plf-wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+@media (max-width: 560px) { .plf-wrap { padding: 0 16px; } }
+
+.plf h1, .plf h2, .plf h3, .plf h4 {
+  font-family: var(--plf-serif);
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+/* Libellé sur-titre en petites capitales */
+.plf-kicker {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--plf-muted);
+  font-weight: 600;
+}
+
+/* Repère géométrique (remplace les emojis) */
+.plf-carre { display: inline-block; width: 10px; height: 10px; background: var(--plf-accent); flex: none; }
+
+/* ── Filet tricolore ──────────────────────────────── */
+/* Un seul filet pleine largeur par écran ; version courte 120 px en signature. */
+.plf-filet-tricolore { display: flex; height: 3px; width: 100%; }
+.plf-filet-tricolore span { flex: 1; }
+.plf-filet-tricolore span:nth-child(1) { background: var(--plf-accent); }
+.plf-filet-tricolore span:nth-child(2) { background: #FFFFFF; border-top: 1px solid var(--plf-bord); border-bottom: 1px solid var(--plf-bord); }
+.plf-filet-tricolore span:nth-child(3) { background: var(--plf-rouge); }
+.plf-filet-tricolore--court { width: 120px; }
+
+/* ── Boutons (zone cliquable 44 px minimum, angles vifs) ── */
+.plf .plf-btn,
+.plf .plf-btn-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  font-family: var(--plf-sans);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+.plf .plf-btn { background: var(--plf-accent); color: #fff; border: 1px solid var(--plf-accent); }
+.plf .plf-btn:hover { background: var(--plf-accent-hover); border-color: var(--plf-accent-hover); color: #fff; text-decoration: none; }
+.plf .plf-btn-2 { background: var(--plf-surface); color: var(--plf-ink); border: 1px solid var(--plf-ink); }
+.plf .plf-btn-2:hover { background: var(--plf-hover); color: var(--plf-ink); text-decoration: none; }
+
+/* ── En-tête de marque commun ─────────────────────── */
+/* Trois carrés tricolores à gauche, wordmark « Pour la France » au centre. */
+.plf-marque {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 12px 16px;
+  padding: 18px 0 14px;
+}
+.plf-drapeau { display: inline-flex; gap: 4px; justify-self: start; }
+.plf-drapeau span { display: block; width: 12px; height: 12px; }
+.plf-drapeau span:nth-child(1) { background: var(--plf-accent); }
+.plf-drapeau span:nth-child(2) { background: #FFFFFF; border: 1px solid var(--plf-bord-2); }
+.plf-drapeau span:nth-child(3) { background: var(--plf-rouge); }
+
+.plf-marque-nom {
+  justify-self: center;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--plf-ink);
+  white-space: nowrap;
+}
+a.plf-marque-nom:hover { text-decoration: none; }
+.plf-mot-bleu { color: var(--plf-accent); }
+.plf-mot-rouge { color: var(--plf-rouge); }
+/* Mot blanc : lisible grâce au contour encre (repli encre si non supporté) */
+.plf-mot-blanc { color: var(--plf-ink); }
+@supports ((-webkit-text-stroke: 1px black) or (text-stroke: 1px black)) {
+  .plf-mot-blanc { color: #fff; -webkit-text-stroke: 1px var(--plf-ink); paint-order: stroke fill; }
+}
+.plf-marque-devise { justify-self: end; font-size: 13px; color: var(--plf-muted); }
+@media (max-width: 640px) {
+  .plf-marque { grid-template-columns: auto 1fr; padding-top: 14px; }
+  .plf-marque-nom { grid-column: 2; justify-self: center; }
+  .plf-marque-devise { grid-column: 1 / -1; justify-self: center; text-align: center; }
+}
+
+/* ── Page de garde (contenu centré) ───────────────── */
+.plf-garde-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 52px) 0 40px;
+}
+.plf-garde-hero h1 {
+  font-size: clamp(27px, 4.4vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+.plf-garde-hero p {
+  margin: 0;
+  font-size: clamp(17px, 2.2vw, 19px);
+  line-height: 1.55;
+  color: var(--plf-texte-2);
+  text-wrap: pretty;
+}
+.plf-garde-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding-top: 4px; }
+
+.plf-garde-outils { display: flex; flex-direction: column; align-items: center; gap: 14px; padding-bottom: 48px; }
+.plf-cartes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  gap: 12px;
+  align-items: stretch;
+  width: 100%;
+}
+.plf-carte {
+  border: 1px solid var(--plf-bord);
+  background: var(--plf-surface);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  transition: border-color .15s;
+}
+.plf-carte:hover { border-color: var(--plf-ink); }
+.plf-carte--ici:hover { border-color: var(--plf-accent); }
+/* Seule la carte mise en avant porte une ombre. */
+.plf-carte--ici {
+  border-color: var(--plf-accent);
+  box-shadow: 0 14px 34px -24px rgba(0, 0, 40, 0.55);
+}
+.plf-carte-tete { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 20px; }
+.plf-carte-tete .plf-carre { width: 12px; height: 12px; background: var(--plf-inactif); }
+.plf-carte--ici .plf-carte-tete .plf-carre { background: var(--plf-accent); }
+.plf-ici-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--plf-accent);
+}
+.plf-carte h3 { font-size: 22px; line-height: 1.15; font-weight: 600; }
+.plf-carte p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--plf-texte-2); flex: 1; text-wrap: pretty; }
+.plf .plf-carte-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--plf-bord-2);
+  background: var(--plf-surface);
+  color: var(--plf-ink);
+  align-self: stretch;
+}
+.plf .plf-carte-btn:hover { border-color: var(--plf-ink); color: var(--plf-ink); text-decoration: none; }
+.plf .plf-carte--ici .plf-carte-btn { background: var(--plf-accent); color: #fff; border-color: var(--plf-accent); }
+.plf .plf-carte--ici .plf-carte-btn:hover { background: var(--plf-accent-hover); border-color: var(--plf-accent-hover); color: #fff; }
+
+.plf-garde-methode {
+  margin: 0 auto;
+  padding: 18px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--plf-muted);
+  max-width: 78ch;
+  text-align: center;
+}
+
+/* ── Pied de page commun (centré) ─────────────────── */
+.plf-pied {
+  border-top: 1px solid var(--plf-bord);
+  margin-top: 24px;
+  padding: 28px 0 44px;
+  font-size: 13px;
+  color: var(--plf-muted);
+  line-height: 1.7;
+  text-align: center;
+}
+.plf-pied .plf-filet-tricolore--court { margin: 0 auto 14px; }
+.plf .plf-pied a { color: var(--plf-muted); text-decoration: underline; text-underline-offset: 3px; }
+.plf .plf-pied a:hover { color: var(--plf-ink); }
+.plf-pied p { margin: 0 0 4px; }
+
+/* ── Rangée Accueil / Retour commune ──────────────── */
+.plf-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 0; }
+.plf .plf-nav a { display: inline-flex; align-items: center; min-height: 34px; padding: 0 13px; border: 1px solid var(--plf-bord); color: var(--plf-muted); font-size: 12px; text-decoration: none; background: transparent; white-space: nowrap; }
+.plf .plf-nav a:hover { color: var(--plf-accent); border-color: var(--plf-accent); background: var(--plf-hover); text-decoration: none; }

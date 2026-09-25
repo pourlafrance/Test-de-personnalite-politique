@@ -1,0 +1,146 @@
+<!--
+  Test de personnalité politique : choix de l'édition
+  Copyright (C) 2025 @miseenproduvendredi
+  Ce programme est distribué sous GNU Affero General Public License v3.0
+  https://www.gnu.org/licenses/agpl-3.0.fr.html
+  Des restrictions supplémentaires s'appliquent :
+  usage commercial, neutralité politique, données personnelles
+  → voir LICENSE_SUPPLEMENT.txt à la racine du dépôt
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3Crect width='1' height='2' fill='%23000091'/%3E%3Crect x='1' width='1' height='2' fill='%23fff'/%3E%3Crect x='2' width='1' height='2' fill='%23E1000F'/%3E%3C/svg%3E">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choisir une édition · Test de personnalité politique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Spectral:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="charte.css">
+<style>
+/* Styles propres à la page, sur la base de la charte commune */
+header.page { padding: 28px 0 8px; text-align: center; }
+header.page h1 { font-size: clamp(26px, 5vw, 38px); font-weight: 700; margin-bottom: 10px; }
+header.page .sub { font-size: 16px; color: var(--plf-texte-2); line-height: 1.6; max-width: 56ch; margin: 0 auto; }
+main { padding: 20px 0 8px; }
+.bloc { max-width: 640px; margin: 0 auto; }
+
+/* Carte de l'édition en cours */
+.grid-main { display: grid; grid-template-columns: minmax(0, 380px); gap: 12px; margin: 18px 0 8px; justify-content: center; }
+.btn-ed { display: flex; flex-direction: column; background: var(--plf-surface); border: 1px solid var(--plf-accent); padding: 24px 22px; text-decoration: none; color: inherit; box-shadow: 0 14px 34px -24px rgba(0,0,40,.55); }
+.btn-ed:hover { text-decoration: none; color: inherit; background: var(--plf-hover); }
+.btn-year { font-family: var(--plf-serif); font-size: 44px; font-weight: 700; color: var(--plf-accent); line-height: 1; margin-bottom: 10px; }
+.btn-title { font-size: 17px; font-weight: 600; margin-bottom: 5px; }
+.btn-desc { font-size: 14px; color: var(--plf-texte-2); line-height: 1.55; margin-bottom: 14px; flex: 1; }
+.btn-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 12px; font-weight: 600; padding: 4px 10px; background: var(--plf-hover); color: var(--plf-texte-2); border: 1px solid var(--plf-bord); }
+.tag.sim { background: #F8F4E9; color: #7A5A1F; border-color: #D9C38A; }
+.btn-cta { margin-top: 16px; min-height: 44px; display: flex; align-items: center; justify-content: center; background: var(--plf-accent); color: #fff; font-size: 15px; font-weight: 600; }
+.btn-ed:hover .btn-cta { background: var(--plf-accent-hover); }
+
+/* Libellé de section */
+.slabel { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--plf-muted); margin: 24px 0 10px; border-top: 1px solid var(--plf-ink); padding-top: 12px; text-align: center; }
+
+/* Éditions historiques, grille compacte */
+.grid-hist { display: grid; grid-template-columns: repeat(auto-fill, 130px); justify-content: center; gap: 9px; margin-bottom: 8px; }
+.hbtn { display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--plf-surface); border: 1px solid var(--plf-bord); padding: 14px 8px; text-decoration: none; color: inherit; text-align: center; min-height: 44px; }
+.hbtn:hover { border-color: var(--plf-ink); text-decoration: none; color: inherit; }
+.hy { font-family: var(--plf-serif); font-size: 22px; font-weight: 700; color: var(--plf-accent); line-height: 1; margin-bottom: 3px; }
+.hc { font-size: 11px; color: var(--plf-muted); margin-bottom: 6px; }
+.htag { font-size: 11px; font-weight: 600; padding: 2px 8px; background: var(--plf-hover); color: var(--plf-texte-2); border: 1px solid var(--plf-bord); }
+
+/* Encart civique */
+.civic { background: var(--plf-surface); border: 1px solid var(--plf-bord); border-left: 3px solid var(--plf-accent); padding: 20px 22px; margin: 20px 0; }
+.civic p { font-size: 15px; line-height: 1.7; color: var(--plf-texte-2); margin: 0 0 10px; }
+.civic p:last-child { margin-bottom: 0; }
+.civic .civic-titre { font-size: 16px; font-weight: 700; color: var(--plf-ink); margin-bottom: 13px; }
+
+
+</style>
+</head>
+<body class="plf">
+
+<div class="plf-wrap">
+  <header class="plf-marque">
+    <span class="plf-drapeau" aria-hidden="true"><span></span><span></span><span></span></span>
+    <a class="plf-marque-nom" href="index.html"><span class="plf-mot-bleu">Pour</span> <span class="plf-mot-blanc">la</span> <span class="plf-mot-rouge">France</span></a>
+    <span class="plf-marque-devise">Indépendant · anonyme · open source</span>
+  </header>
+  <div class="plf-filet-tricolore" aria-hidden="true"><span></span><span></span><span></span></div>
+  <nav class="plf-nav">
+    <a href="index.html" onclick="if(history.length>1){history.back();return false}">← Retour</a>
+    <a href="index.html">Accueil</a>
+  </nav>
+
+  <header class="page">
+    <h1>Test de personnalité politique</h1>
+    <p class="sub">Comparez vos opinions aux programmes des candidats à l'élection présidentielle française. Choisissez une édition pour commencer.</p>
+  </header>
+
+  <main><div class="bloc">
+
+    <!-- ── Édition en cours ───────────────────────── -->
+    <div class="grid-main">
+
+      <a class="btn-ed" href="2027/index.html">
+        <div class="btn-year">2027</div>
+        <div class="btn-title">Présidentielle 2027</div>
+        <div class="btn-desc">Structure prête · Positions des candidats en attente des programmes officiels de campagne</div>
+        <div class="btn-tags">
+          <span class="tag sim">Simulation</span>
+          <span class="tag">En préparation</span>
+        </div>
+        <div class="btn-cta">Aperçu →</div>
+      </a>
+
+    </div>
+
+    <!-- ── Éditions historiques ───────────────────── -->
+    <div class="slabel">Éditions historiques</div>
+    <div class="grid-hist">
+
+      <a class="hbtn" href="2022/index.html">
+        <div class="hy">2022</div>
+        <div class="hc">12 candidats</div>
+        <span class="htag">Disponible</span>
+      </a>
+
+      <a class="hbtn" href="2017/index.html">
+        <div class="hy">2017</div>
+        <div class="hc">11 candidats</div>
+        <span class="htag">Disponible</span>
+      </a>
+
+    </div>
+
+    <!-- ── Civic ─────────────────────────────────── -->
+    <div class="civic">
+      <p class="civic-titre">Voter est un devoir civique, et un devoir de se renseigner soi-même</p>
+      <p>Dans une démocratie, votre opinion vous appartient. Mais elle se construit, elle ne s'impose pas.</p>
+      <p>Recevoir une information de manière orientée (via un réseau social, un média partial, ou même un proche convaincu) influence votre avis <em>avant même que vous ayez eu le temps de le former vous-même</em>. C'est un phénomène documenté en psychologie : la première version d'un fait que nous entendons colore durablement notre jugement. L'amorçage cognitif et les biais de confirmation font le reste.</p>
+      <p>Ce test présente chaque position de manière équilibrée, sans jugement et sans orientation. Il ne vous dit pas pour qui voter. Il vous aide à <strong>comprendre les programmes</strong> et à identifier vos propres convictions.</p>
+      <p>La République française repose sur des valeurs fondamentales : <strong>Liberté, Égalité, Fraternité</strong>. La démocratie représentative n'a de sens que si chacun participe. <strong>S'abstenir, c'est laisser les autres décider à votre place.</strong> Voter sans se renseigner, c'est déléguer son jugement à ceux qui ont parlé le plus fort.</p>
+      <p>Ce test est un premier pas. Lisez plusieurs sources, confrontez les arguments, questionnez les certitudes. Le travail de citoyen commence avant le bureau de vote.</p>
+    </div>
+
+    <!-- ── FAQ ───────────────────────────────────── -->
+    <div class="slabel">Questions fréquentes</div>
+    <p style="text-align:center;margin:0 0 8px"><a class="plf-btn-2" href="faq.html">Consulter la FAQ</a></p>
+
+  </div></main>
+
+  <footer class="plf-pied">
+    <div class="plf-filet-tricolore plf-filet-tricolore--court" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p>Pour la France · projet citoyen indépendant · Liberté, Égalité, Fraternité</p>
+    <p>
+      <a href="index.html">Accueil</a> ·
+      <a href="faq.html">FAQ</a> ·
+      <a href="https://x.com/fracoiselibre" target="_blank" rel="noopener">Compte X</a> ·
+      <a href="https://github.com/pourlafrance/Test-de-personnalite-politique" target="_blank" rel="noopener">Code source (GitHub)</a>
+    </p>
+  </footer>
+</div>
+
+</body>
+</html>
