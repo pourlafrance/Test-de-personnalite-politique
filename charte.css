@@ -182,6 +182,8 @@ a.plf-marque-nom:hover { text-decoration: none; }
   text-align: center;
   gap: 12px;
   transition: border-color .15s;
+  position: relative;
+  cursor: pointer;
 }
 .plf-carte:hover { border-color: var(--plf-ink); }
 .plf-carte--ici:hover { border-color: var(--plf-accent); }
@@ -249,3 +251,17 @@ a.plf-marque-nom:hover { text-decoration: none; }
 .plf-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 0; }
 .plf .plf-nav a { display: inline-flex; align-items: center; min-height: 34px; padding: 0 13px; border: 1px solid var(--plf-bord); color: var(--plf-muted); font-size: 12px; text-decoration: none; background: transparent; white-space: nowrap; }
 .plf .plf-nav a:hover { color: var(--plf-accent); border-color: var(--plf-accent); background: var(--plf-hover); text-decoration: none; }
+
+/* Carte entièrement cliquable : le lien du bouton couvre toute la carte */
+.plf .plf-carte-btn::after { content: ""; position: absolute; inset: 0; }
+.plf .plf-carte:hover .plf-carte-btn { border-color: var(--plf-ink); }
+.plf .plf-carte--ici:hover .plf-carte-btn { border-color: var(--plf-accent-hover); }
+
+/* Pastille du nom du site, dans la rangée d'onglets */
+.plf .plf-nav .plf-nav-site {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 34px; padding: 0 14px;
+  background: var(--plf-accent); border: 1px solid var(--plf-accent);
+  color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .02em; white-space: nowrap;
+}
+.plf .plf-nav .plf-nav-site::before { content: ""; width: 8px; height: 8px; background: #fff; flex: none; }

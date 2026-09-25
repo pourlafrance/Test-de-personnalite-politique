@@ -46,6 +46,17 @@ main { padding: 20px 0 8px; }
 .warn-box { background: #F8F4E9; border: 1px solid #D9C38A; padding: 10px 12px; margin-top: 6px; }
 .warn-box strong { font-size: 13px; color: #7A5A1F; }
 .warn-box p { font-size: 13px; color: #7A5A1F; margin: 4px 0 0; line-height: 1.6; }
+
+.sommaire { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 22px 0 4px; }
+.sommaire a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border: 1px solid var(--plf-ink); background: var(--plf-surface); color: var(--plf-ink); font-size: 14px; font-weight: 600; }
+.sommaire a:hover { background: var(--plf-hover); text-decoration: none; }
+.section-site { scroll-margin-top: 16px; margin-top: 34px; }
+.section-site .slabel { margin-top: 0; border-top: 3px solid var(--plf-accent); color: var(--plf-accent); font-size: 13px; }
+.section-site h2 { text-align: center; font-size: 26px; font-weight: 700; margin: 6px 0 4px; }
+.section-site .qui { text-align: center; font-size: 14px; color: var(--plf-muted); margin: 0 0 14px; }
+.liens-sources { list-style: none; padding: 0; margin: 0 0 9px; }
+.liens-sources li { padding: 8px 0; border-top: 1px solid var(--plf-filet); }
+.liens-sources li:first-child { border-top: none; }
 </style>
 </head>
 <body class="plf">
@@ -60,43 +71,72 @@ main { padding: 20px 0 8px; }
   <nav class="plf-nav">
     <a href="index.html" onclick="if(history.length>1){history.back();return false}">← Retour</a>
     <a href="index.html">Accueil</a>
+    <span class="plf-nav-site" aria-current="page">FAQ des trois sites</span>
   </nav>
 
   <header class="page">
     <h1>Questions fréquentes</h1>
-    <p class="sub">Anonymat, indépendance, méthodologie et limites du test, regroupés sur une seule page.</p>
+    <p class="sub">Anonymat, méthodes et sources des trois sites, regroupés sur une seule page et classés par site.</p>
   </header>
 
   <main><div class="bloc">
 
-    <div class="slabel">Anonymat &amp; indépendance</div>
+    <nav class="sommaire" aria-label="Aller à un site">
+      <a href="#commun">Les trois sites</a>
+      <a href="#test">Test de personnalité politique</a>
+      <a href="#vote">Qu'auriez-vous voté&nbsp;?</a>
+      <a href="#subventions">Subventions FR</a>
+    </nav>
 
+    <section class="section-site" id="commun">
+      <div class="slabel">Commun</div>
+      <h2>Les trois sites</h2>
+      <p class="qui">Questions communes à tous les sites Pour la France.</p>
     <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
-        Les données du test sont-elles collectées ?
+        Des données sont-elles collectées sur les trois sites ?
         <span class="faq-arrow">▼</span>
       </button>
       <div class="faq-body">
-        <p><strong>Non. Aucune donnée n'est collectée, transmise ou stockée.</strong></p>
-        <p>Le test fonctionne entièrement dans votre navigateur. Vos réponses ne quittent jamais votre appareil : il n'y a ni serveur qui les reçoit, ni base de données qui les enregistre, ni cookie de traçage, ni analytique tiers.</p>
-        <p>Techniquement, la page est un fichier HTML/JavaScript autonome : tout le calcul se fait côté client, en mémoire vive. Dès que vous fermez l'onglet, tout disparaît. Vous pouvez le vérifier vous-même en consultant le code source, disponible intégralement sur <a href="https://github.com/pourlafrance/Test-de-personnalite-politique" target="_blank" rel="noopener">GitHub</a>.</p>
-        <p>Ce choix est délibéré : vos opinions politiques vous appartiennent, et elles n'ont pas à être connues d'un tiers, même anonymisées.</p>
+        <p><strong>Non. Aucune donnée personnelle n'est collectée, transmise ou stockée.</strong></p>
+        <p>Les trois sites sont des sites statiques : ni serveur qui reçoit vos réponses, ni base de données, ni cookie de traçage, ni analytique tiers. Le test de personnalité et « Qu'auriez-vous voté ? » calculent tout dans votre navigateur, en mémoire vive : dès que vous fermez l'onglet, tout disparaît. Subventions FR n'interroge que des données publiques.</p>
+        <p>Le code source de chaque site est public et vérifiable sur GitHub (lien en bas de page).</p>
       </div>
     </div>
-
     <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
-        Le projet est-il indépendant ?
+        Les projets sont-ils indépendants ?
         <span class="faq-arrow">▼</span>
       </button>
       <div class="faq-body">
-        <p><strong>Oui.</strong> Projet citoyen indépendant : sans affiliation politique et sans financement partisan.</p>
-        <p>Le test présente chaque position de manière équilibrée, sans jugement et sans orientation. Il ne vous dit pas pour qui voter. Il vous aide à comprendre les programmes et à identifier vos propres convictions.</p>
+        <p><strong>Oui.</strong> Projets citoyens indépendants : sans affiliation politique et sans financement partisan. Chaque site s'appuie exclusivement sur des sources publiques citées, et les présente sans jugement ni orientation : il ne dit pas pour qui voter, il aide à comprendre.</p>
       </div>
     </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Comment signaler une erreur ou contester une donnée ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Ouvrez une <em>issue</em> sur le dépôt GitHub du site concerné en indiquant la page, la donnée et, si possible, la source qui la contredit. Chaque correction est tracée dans l'historique public du dépôt.</p>
+      </div>
+    </div>
+    </section>
 
-    <div class="slabel">Méthodologie &amp; limites</div>
-
+    <section class="section-site" id="test">
+      <div class="slabel">Site 1 sur 3</div>
+      <h2>Test de personnalité politique</h2>
+      <p class="qui">Comparer ses opinions aux programmes des candidats à la présidentielle.</p>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Le projet est-il neutre vis-à-vis des candidats ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Chaque position attribuée à un candidat repose sur des sources publiques (programme officiel, déclarations publiques, votes au Parlement) citées dans le contexte de chaque question. Les mêmes questions et les mêmes échelles sont appliquées à tous les candidats. Quand une position n'est pas documentée, elle est laissée neutre (valeur <code>0</code>) plutôt que déduite.</p>
+        <p>Pour l'édition 2027, les positions sont des <strong>estimations</strong> en attente des programmes officiels de campagne : l'édition est signalée « Simulation » sur ses pages.</p>
+      </div>
+    </div>
     <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
         Pourquoi le test ne couvre-t-il pas l'intégralité des programmes ?
@@ -112,7 +152,6 @@ main { padding: 20px 0 8px; }
         <p>Ce qui n'est pas couvert comprend notamment : la fiscalité sectorielle fine, la politique étrangère détaillée, la réforme pénale de fond, la politique numérique avancée (IA, souveraineté des données), la santé mentale, l'enseignement supérieur, ou le financement des partis. Ce test est un point de départ, pas un panorama exhaustif.</p>
       </div>
     </div>
-
     <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
         Quels sont les micro-biais mathématiques du test ?
@@ -139,6 +178,117 @@ main { padding: 20px 0 8px; }
         </div>
       </div>
     </div>
+    </section>
+
+    <section class="section-site" id="vote">
+      <div class="slabel">Site 2 sur 3</div>
+      <h2>Qu'auriez-vous voté&nbsp;?</h2>
+      <p class="qui">Voter sur les textes de l'Assemblée nationale et découvrir le vote des groupes.</p>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        D'où viennent les données ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>De deux sources publiques officielles :</p>
+        <ul class="liens-sources">
+          <li><strong>Scrutins de l'Assemblée nationale</strong> (qui a voté quoi, nominativement) : <a href="https://data.assemblee-nationale.fr/" target="_blank" rel="noopener">data.assemblee-nationale.fr</a></li>
+          <li><strong>Datan</strong>, d'après l'Assemblée nationale, pour relier chaque député à son groupe : <a href="https://datan.fr/" target="_blank" rel="noopener">datan.fr</a></li>
+        </ul>
+        <p>Les données sont sous Licence Ouverte / Etalab. Citation : « d'après l'Assemblée nationale ».</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Quels votes sont affichés ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Uniquement les votes <strong>sur l'ensemble d'un texte</strong> (votes finaux) de la législature en cours, adoptés ou rejetés. Les amendements ne sont pas pris en compte. Pour chaque groupe, le site affiche la <strong>position majoritaire</strong> de ses membres, avec le détail pour / contre / abstention.</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        À quelle fréquence les données sont-elles mises à jour ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Automatiquement <strong>chaque lundi</strong>. Si une source est indisponible, la mise à jour est abandonnée et le site conserve les dernières données valides.</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Comment les thématiques sont-elles attribuées ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Automatiquement, par mots-clés présents dans l'intitulé officiel du texte. C'est utile mais imparfait, d'où une catégorie « Autre ». Aucun classement n'est fait à la main.</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Quelles sont les limites ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <ul>
+          <li>Le groupe d'un député est son groupe <strong>actuel</strong> : un changement de groupe en cours de législature n'est pas rétro-appliqué aux votes plus anciens.</li>
+          <li>Le contexte affiché est une phrase factuelle (type de texte, lecture, thématique). Un contexte plus détaillé n'est ajouté que s'il est neutre et sourcé.</li>
+          <li>Vos réponses ne sont ni enregistrées ni comparées à celles d'autres personnes.</li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+    <section class="section-site" id="subventions">
+      <div class="slabel">Site 3 sur 3</div>
+      <h2>Subventions FR</h2>
+      <p class="qui">Où va l'argent public : subventions françaises et européennes.</p>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Quelles sont les sources des données ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <ul class="liens-sources">
+          <li><strong>Associations</strong> : Données essentielles des subventions (schéma SCDL) publiées sur <a href="https://www.data.gouv.fr/" target="_blank" rel="noopener">data.gouv.fr</a>, et « jaune budgétaire » annexé au projet de loi de finances.</li>
+          <li><strong>Agriculture</strong> : bénéficiaires de la PAC, portail de l'<a href="https://www.asp-public.fr/" target="_blank" rel="noopener">Agence de services et de paiement</a> (personnes morales uniquement).</li>
+          <li><strong>Entreprises</strong> : aides d'État supérieures à 500 000 €, <a href="https://webgate.ec.europa.eu/competition/transparency/public" target="_blank" rel="noopener">registre de transparence de la Commission européenne</a>.</li>
+          <li><strong>Recherche</strong> : financements Horizon Europe, export <a href="https://cordis.europa.eu/" target="_blank" rel="noopener">CORDIS</a>.</li>
+          <li><strong>Transition écologique</strong> : aides de l'<a href="https://data.ademe.fr/" target="_blank" rel="noopener">ADEME</a> aux personnes morales privées.</li>
+          <li><strong>Enrichissement des fiches</strong> : <a href="https://recherche-entreprises.api.gouv.fr/" target="_blank" rel="noopener">API Recherche d'entreprises</a> (base SIRENE de l'<a href="https://www.insee.fr/" target="_blank" rel="noopener">INSEE</a>).</li>
+        </ul>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Comment les subventions sont-elles classées ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Par domaine, selon la classification internationale <strong>COFOG</strong> (ONU / OCDE, utilisée par l'INSEE). Aucune catégorie n'est inventée : la table de correspondance est publiée dans le dépôt GitHub et peut être contestée.</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Le site porte-t-il un jugement sur les subventions ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Non. Le site décrit, il ne commente pas. La part non documentée est affichée, jamais masquée, et aucune personne physique n'est nommée.</p>
+        <p>Détails, périmètre et limites : <a href="https://pourlafrance.github.io/subvention-FR/#/methodologie" target="_blank" rel="noopener">page Méthodologie de Subventions FR</a>.</p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Pourquoi une bannière « Données de démonstration » apparaît-elle parfois ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>Tant que le pipeline officiel n'a pas alimenté la base, le site affiche un jeu de démonstration clairement étiqueté. Dès que les données réelles sont publiées, la bannière disparaît.</p>
+      </div>
+    </div>
+    </section>
 
   </div></main>
 
