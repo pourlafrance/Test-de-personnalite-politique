@@ -1,0 +1,172 @@
+{
+ "candidat": "Gabriel Attal",
+ "parti": "Renaissance",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027 : annonce officielle le 22 mai 2026 à Mur-de-Barrez (Aveyron) (« j'ai décidé d'être candidat à la présidence de la République », franceinfo, 2026-05-22). Site de campagne actif (attalpresident.fr) : meeting régional annoncé à Lyon le 10 octobre 2026, équipe de campagne présentée, participation au débat de la REF le 27 août 2026 et à des émissions en septembre 2026 en tant que candidat.",
+  "sources": [
+   "https://www.franceinfo.fr/elections/presidentielle/j-aime-passionnement-la-france-et-j-aime-profondement-les-francais-gabriel-attal-se-declare-candidat-a-l-election-presidentielle-de-2027_8020769.html",
+   "https://attalpresident.fr/",
+   "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027"
+  ]
+ },
+ "positions_documentees": 17,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Gabriel Attal a revendiqué les choix économiques engagés depuis 2017 : baisse du taux d’impôt sur les sociétés de 33 % à 25 %, flat tax et suppression de l’ISF",
+   "url": "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027",
+   "date_source": "2026-08-27"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Il souhaite parallèlement mener enfin à terme la suppression de la CVAE",
+   "url": "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027",
+   "date_source": "2026-08-27"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Se protéger , c'est accepter de mettre en place des barrières commerciales claires : des taxes à l'importation ciblées sur les produits chinois vendus à perte",
+   "url": "https://attalpresident.fr/programme/frontieres",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 8,
+   "question": "Les flux migratoires vers la France doivent être fortement réduits.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Notre ligne est claire, ce que nous voulons, c’est accueillir moins pour accueillir mieux , privilégier l’immigration de travail",
+   "url": "https://attalpresident.fr/programme/frontieres",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": -2,
+   "citation": "il n’y a que deux choix politiques possibles : le vieux cauchemar du Frexit ou un rêve nouveau, un rêve atteignable : préparer les États-Unis d’Europe.",
+   "url": "https://attalpresident.fr/actualites/gabriel-attal-a-reims-batir-les-etats-unis-d-europe-pour-retrouver-notre-puissance",
+   "date_source": "2026-09-17"
+  },
+  {
+   "question_id": 15,
+   "question": "L'Union européenne est globalement bénéfique pour la France.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "On a des grands-parents qui ont fait la paix, des parents qui ont fait l’Union européenne. On doit faire, c’est ma conviction, les États-Unis d’Europe.",
+   "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-bfm-tv-le-plus-juste-c-est-d-accompagner-ceux-qui-travaillent",
+   "date_source": "2026-09-21"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "nous devons tripler notre rythme annuel de réduction des émissions entre maintenant et 2030 : passer de 1,8 % à 5 % par an.",
+   "url": "https://attalpresident.fr/programme/dette-ecologique",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Sur le nucléaire, Gabriel Attal veut sécuriser la construction des 14 EPR et retrouver une capacité de construction en série",
+   "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises",
+   "date_source": "2026-09-23"
+  },
+  {
+   "question_id": 22,
+   "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
+   "theme": "Société",
+   "valeur": 0,
+   "citation": "garantir à chacun la liberté de croire ou de ne pas croire, sans instaurer d’interdiction générale du voile pour les femmes adultes.",
+   "url": "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france",
+   "date_source": "2026-09-06"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "instaurant une journée référendaire annuelle sur les grands choix du pays, tout en facilitant le recours aux référendums locaux.",
+   "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958",
+   "date_source": "2026-08-02"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "il promet une grande réforme institutionnelle soumise au vote des Français.",
+   "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958",
+   "date_source": "2026-08-02"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "On n’en est plus à bouger des critères ou des curseurs de notre système. On en est à changer notre système.",
+   "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-remettre-l-exigence-au-coeur-de-l-ecole-et-transformer-le-modele-francais-sur-france-info",
+   "date_source": "2026-09-09"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": 1,
+   "citation": "nous devons continuer à augmenter les moyens de notre défense et surtout, surtout, la préparer aux guerres de demain.",
+   "url": "https://attalpresident.fr/programme/frontieres",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 33,
+   "question": "L'école doit davantage valoriser la discipline, l'effort et l'autorité des enseignants.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "une école où l’autorité du professeur est respectée, où les valeurs de la République sont la règle jamais discutée.",
+   "url": "https://attalpresident.fr/programme/education",
+   "date_source": "2026-09-25"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Je me battrai sans cesse pour assurer la relève dans nos exploitations, permettre à tous nos agriculteurs de vivre dignement, nous défendre contre la concurrence déloyale",
+   "url": "https://attalpresident.fr/actualites/metz-magny-gabriel-attal-veut-preparer-l-avenir-de-l-agriculture-francaise",
+   "date_source": "2026-09-11"
+  },
+  {
+   "question_id": 36,
+   "question": "La flat tax (Prélèvement Forfaitaire Unique) sur les revenus du capital doit être supprimée au profit d'une imposition progressive.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Gabriel Attal a revendiqué les choix économiques engagés depuis 2017 : baisse du taux d’impôt sur les sociétés de 33 % à 25 %, flat tax et suppression de l’ISF",
+   "url": "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027",
+   "date_source": "2026-08-27"
+  },
+  {
+   "question_id": 62,
+   "question": "L'inscription du droit à l'avortement dans la Constitution (mars 2024) doit être maintenue et consolidée.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "l’aboutissement d’un long combat",
+   "url": "https://www.franceinfo.fr/societe/ivg/video-ivg-dans-la-constitution-nous-avons-une-dette-morale-envers-toutes-les-femmes-qui-ont-souffert-dans-leur-chair-declare-gabriel-attal_6403840.html",
+   "date_source": "2024-03-04"
+  }
+ ]
+}

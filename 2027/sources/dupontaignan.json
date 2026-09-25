@@ -1,0 +1,363 @@
+{
+ "candidat": "Nicolas Dupont-Aignan",
+ "parti": "Debout la France",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027. Le site de campagne dupontaignan.fr (consulté le 25/09/2026) est titré « Candidat à l'élection présidentielle 2027 » et propose don et parrainages. Lors de la « Fête de la Liberté » à Yerres le 19/09/2026, il a présenté son projet et signé son discours « Candidat à l'élection Présidentielle » ; CNews titre le même jour qu'il « officialise sa candidature lors de son discours de rentrée ». Une annonce antérieure figure sur le site de Debout la France (page datée 25/09/2025, texte mentionnant un meeting « ce samedi 8 mars »). Le premier tour est cité par lui au 18 avril 2027. Parrainages (500 requis) : page de collecte ouverte, nombre obtenu non publié dans les sources consultées.",
+  "sources": [
+   "https://www.dupontaignan.fr/",
+   "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "https://www.dupontaignan.fr/parrainage/",
+   "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/",
+   "https://www.cnews.fr/france/2026-09-19/presidentielle-2027-nicolas-dupont-aignan-officialise-sa-candidature-lors-de-son"
+  ]
+ },
+ "positions_documentees": 38,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": -1,
+   "citation": "Un projet d’assainissement des comptes publics pour rendre aux Français les dizaines de milliards d’euros gaspillés.",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 5,
+   "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "poursuivre la baisse des impôts de production (qui demeurent les 2èmes plus élevés d’Europe et qui découragent nos entrepreneurs)",
+   "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Une bonne défense avec un protectionnisme sélectif, temporaire, réactif. En un mot « intelligent »",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": 0,
+   "citation": "Modèle macro-économique et social qui soutient l’économie de marché et la libre-entreprise mais dans le cadre strict de l’intérêt supérieur de la nation",
+   "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 8,
+   "question": "Les flux migratoires vers la France doivent être fortement réduits.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Le blocage de l’immigration et le rétablissement de l’ordre public qui nous permettra à nouveau de vivre sans avoir peur en rentrant chez soi le soir venu…",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 9,
+   "question": "Le droit du sol doit être supprimé ou fortement restreint.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Supprimer le droit du sol via un référendum , tout en maintenant la possibilité de devenir Français par naturalisation.",
+   "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 11,
+   "question": "Les peines de prison doivent être significativement alourdies pour les crimes graves.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "Instaurer une peine de perpétuité réelle et non modifiable et soumettre à référendum le rétablissement de la peine de mort pour les meurtres d’enfants.",
+   "url": "https://www.debout-la-france.fr/projet/justice/",
+   "date_source": "2026-06-10"
+  },
+  {
+   "question_id": 12,
+   "question": "La France doit recruter davantage de forces de l'ordre.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "10 000 policiers et gendarmes supplémentaires nets en 5 ans.",
+   "url": "https://www.debout-la-france.fr/projet/securite/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "Sortir de l’Union européenne pour rapatrier nos compétences au niveau national, seul cadre de l’exercice de notre démocratie.",
+   "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
+   "date_source": "2026-06-09"
+  },
+  {
+   "question_id": 15,
+   "question": "L'Union européenne est globalement bénéfique pour la France.",
+   "theme": "Europe",
+   "valeur": -2,
+   "citation": "Il est en effet beaucoup plus périlleux de rester dans l’Union européenne qui n’a plus rien à voir avec l’idée européenne de départ que d’en sortir",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "Vouloir contraindre la France à réduire encore plus ses émissions de CO2, c’est ruiner notre économie afin d’enrichir la concurrence qui elle, se moque de ses rejets.",
+   "url": "https://www.debout-la-france.fr/projet/environnement-energie/",
+   "date_source": "2025-10-29"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Abandonner l’objectif de 50% de nucléaire dans la production électrique en 2035, maintenir le nucléaire à 70% de la production d’électricité minimum.",
+   "url": "https://www.debout-la-france.fr/projet/environnement-energie/",
+   "date_source": "2025-10-29"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": -1,
+   "citation": "La baisse de 50 centimes des taxes sur le carburant relancera la croissance.",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 20,
+   "question": "Les aides sociales (Revenu de Solidarité Active, allocations) doivent être conditionnées à une démarche active de retour à l'emploi.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "Imposer pour toute personne au RSA en état de travailler une journée de mission d’intérêt général par semaine pour la collectivité (région, municipalité…)",
+   "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 22,
+   "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "Interdire tous les signes religieux visibles dans le service public , notamment dans les universités et les hôpitaux, et refuser tout accommodement.",
+   "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Le référendum de l’article 11 dans tous les domaines pour contourner l’extravagant gouvernement des juges.",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 1,
+   "citation": "Instaurer le référendum d’initiative citoyenne constituant (RIC) pour rendre les citoyens acteurs de l’élaboration des lois et maîtres de leur Constitution.",
+   "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
+   "date_source": "2026-06-09"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "C’est tout le sens de ma candidature présidentielle : garantir aux Français ce VRAI CHANGEMENT. UNE VERITABLE RUPTURE.",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": 1,
+   "citation": "nous nous engageons à augmenter notre budget de défense pour atteindre le chiffre raisonnable de 2,5% du PIB",
+   "url": "https://www.debout-la-france.fr/projet/defense/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 31,
+   "question": "La mondialisation économique a plutôt été néfaste pour les travailleurs français.",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "Cette politique s’est notamment traduite par la disparition de 2 millions d’emplois industriels dans l’Hexagone",
+   "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 33,
+   "question": "L'école doit davantage valoriser la discipline, l'effort et l'autorité des enseignants.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "C’est en imposant une vraie rigueur, dans la discipline comme dans la transmission des savoirs, que nous parviendrons rendre à chacun toutes ses chances.",
+   "url": "https://www.debout-la-france.fr/projet/instruction-publique/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 2,
+   "citation": "Notre ambition est claire : permettre aux agriculteurs de vivre dignement de leur travail",
+   "url": "https://www.debout-la-france.fr/projet/agriculture/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 35,
+   "question": "Les grandes plateformes numériques (Google, Amazon, Meta…) doivent être beaucoup plus strictement régulées.",
+   "theme": "Numérique",
+   "valeur": 0,
+   "citation": "Supprimer le « Digital Service Act » et l’ensemble des mesures liberticides imposées par la Commission européenne (réseaux sociaux, presse, lanceurs d’alerte).",
+   "url": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
+   "date_source": "2026-09-21"
+  },
+  {
+   "question_id": 37,
+   "question": "Un revenu universel de base doit être instauré pour tous les citoyens adultes.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "A l’opposé du revenu universel sans contrepartie, le contrat de travail universel proposera une activité d’intérêt général à mi-temps",
+   "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 39,
+   "question": "Les industries énergétiques et les transports doivent être renationalisés.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Renationaliser les autoroutes (qui réalisent des bénéfices de l’ordre de 4 milliards d’euros par an)",
+   "url": "https://www.debout-la-france.fr/projet/transport-automobilistes/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "supprimer la régularisation pour les étrangers en situation irrégulière",
+   "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "Limiter le droit d’asile aux personnes le demandant directement aux frontières et refuser toute attribution sur le territoire national ou après plusieurs semaines de clandestinité.",
+   "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 43,
+   "question": "La France devrait sortir de la zone euro ou en renégocier en profondeur les règles.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "avec nos frontières, nos lois nationales, nos budgets et nos monnaies",
+   "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+   "date_source": "2026-09-19"
+  },
+  {
+   "question_id": 45,
+   "question": "La vente de véhicules thermiques neufs doit être interdite avant 2035.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Supprimer l’interdiction des véhicules thermiques à horizon 2035 imposée par l’UE.",
+   "url": "https://www.debout-la-france.fr/projet/transport-automobilistes/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 47,
+   "question": "L'euthanasie active doit être légalisée en France pour les malades en fin de vie.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "cette loi présente un risque majeur d’incitation au suicide des personnes vulnérables.",
+   "url": "https://www.debout-la-france.fr/actualite/euthanasie-et-suicide-assiste-pourquoi-je-vote-contre-%c2%b7-assemblee-nationale-27-05-24/",
+   "date_source": "2024-05-27"
+  },
+  {
+   "question_id": 48,
+   "question": "La prise en charge de la dépendance des personnes âgées doit être intégralement couverte par la Sécurité Sociale.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Un plan ambitieux fera de la dépendance une cinquième branche de la Sécurité Sociale adossée sur des moyens de financement pérennes qui lui font défaut.",
+   "url": "https://www.debout-la-france.fr/projet/dependance-fin-de-vie/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 51,
+   "question": "La Gestation Pour Autrui (GPA) doit rester totalement interdite en France.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "Refuser catégoriquement la gestation pour autrui (GPA).",
+   "url": "https://www.debout-la-france.fr/projet/famille/",
+   "date_source": "2026-06-09"
+  },
+  {
+   "question_id": 52,
+   "question": "La représentation proportionnelle doit être introduite aux élections législatives.",
+   "theme": "Démocratie",
+   "valeur": -2,
+   "citation": "La mise en place du scrutin proportionnel est une fausse bonne idée, une illusion démocratique",
+   "url": "https://www.debout-la-france.fr/actualite/communique-de-presse-%c2%b7-la-proportionnelle-le-piege-du-systeme-pour-priver-la-france-dalternative-politique/",
+   "date_source": "2025-04-30"
+  },
+  {
+   "question_id": 54,
+   "question": "La discrimination positive par quotas est un outil adapté pour corriger les inégalités structurelles.",
+   "theme": "Valeurs",
+   "valeur": -1,
+   "citation": "Supprimer les procédures d’exception aux concours des grandes écoles lorsqu’elles violent le principe d’égalité républicaine",
+   "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+   "date_source": "2026-03-03"
+  },
+  {
+   "question_id": 55,
+   "question": "La France doit rester dans le commandement intégré de l'Organisation du Traité de l'Atlantique Nord (OTAN).",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "Sortir du commandement intégré de l’OTAN pour regagner notre indépendance militaire et stratégique",
+   "url": "https://www.debout-la-france.fr/projet/defense/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 57,
+   "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
+   "theme": "Éducation",
+   "valeur": 0,
+   "citation": "Donner la possibilité à un établissement, en accord avec l’institution scolaire, de décider du port de l’uniforme dans le primaire et au collège.",
+   "url": "https://www.debout-la-france.fr/projet/instruction-publique/",
+   "date_source": "2024-02-05"
+  },
+  {
+   "question_id": 58,
+   "question": "Un service civique obligatoire d'un an doit être instauré pour tous les jeunes Français.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "Instaurer un service national civique obligatoire de trois mois avec option militaire d’une année pour retisser le lien armée-nation",
+   "url": "https://www.debout-la-france.fr/projet/defense/",
+   "date_source": "2026-02-16"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": 2,
+   "citation": "Nous voulons soutenir les exploitations en simplifiant les normes, en favorisant les circuits courts",
+   "url": "https://www.debout-la-france.fr/projet/agriculture/",
+   "date_source": "2026-02-16"
+  }
+ ]
+}

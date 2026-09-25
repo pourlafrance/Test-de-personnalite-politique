@@ -1,84 +1,72 @@
-# Édition 2027 — Présidentielle française
+# Édition 2027 : présidentielle française d'avril 2027
 
-> Partie du projet [Test de personnalité politique](../)
+Partie du projet [Test de personnalité politique](../).
 
----
+## Statut : édition provisoire
 
-> ## 🚧 Version en cours de développement
->
-> Cette édition est en préparation. Les programmes officiels de campagne ne sont pas encore publiés.
-> Les positions des candidats actuellement encodées sont **provisoires et simulées** à des fins de développement uniquement.
-> Elles ne reflètent **aucunement les positions réelles** des candidats listés.
->
-> **Ne pas utiliser cette édition pour former ou orienter un jugement politique.**
->
-> Les données seront mises à jour au fur et à mesure de la publication des programmes officiels, et finalisées une fois les candidatures officiellement déclarées.
+Aucun programme officiel de campagne n'est encore publié (mise à jour du 25 septembre 2026). Les positions
+affichées reposent **uniquement sur des sources publiques citées**, datées de 2024 ou après. Elles sont incomplètes :
+une position non documentée est **exclue du calcul** (elle n'est jamais remplacée par une valeur neutre) et le nombre
+de positions comparées est affiché pour chaque candidat. Ne pas utiliser cette édition comme référence définitive.
 
----
+## Candidats intégrés (10)
 
-## Présentation
+| Candidat | Parti | Positions documentées |
+|----------|-------|-----------------------|
+| Gabriel Attal | Renaissance | 17 / 62 |
+| Juan Branco | Les Ruches | 25 / 62 |
+| Nicolas Dupont-Aignan | Debout la France | 37 / 62 |
+| Marine Le Pen | Rassemblement national | 18 / 62 |
+| David Lisnard | Nouvelle Énergie | 31 / 62 |
+| Jean-Luc Mélenchon | La France insoumise | 42 / 62 |
+| Édouard Philippe | Horizons | 19 / 62 |
+| Florian Philippot | Les Patriotes | 17 / 62 |
+| Bruno Retailleau | Les Républicains | 30 / 62 |
+| Éric Zemmour | Reconquête | 17 / 62 |
 
-Test de personnalité politique pour l'**élection présidentielle française d'avril 2027**.
+Classement alphabétique. Les couleurs n'ont aucun lien avec les partis.
 
-| | |
-|---|---|
-| **Statut** | 🚧 En développement — données provisoires |
-| **Candidats (provisoires)** | 8 candidats pressentis |
-| **Questions** | 62 (identiques à l'édition 2022) |
-| **Positions encodées** | ⚠️ Simulation — en attente des programmes officiels |
+## Règles
 
----
+**Intégration d'un candidat** (identique pour tous) : candidature publiquement déclarée et au moins 15 positions
+sur 62 documentées. La liste est politique et non juridique : les candidatures ne sont officielles qu'après
+validation par le Conseil constitutionnel (500 parrainages d'élus, échéance en mars 2027).
 
-## Candidats actuellement listés (provisoires)
+**Retenue d'une position** : les quatre conditions suivantes doivent être réunies.
 
-> Cette liste est indicative. Elle sera mise à jour en fonction des candidatures officiellement déclarées.
+1. La citation figure mot pour mot dans la page publique citée (contrôle automatique sur le texte brut de la page).
+2. La source date de 2024 ou après.
+3. Elle exprime directement la position du candidat sur l'énoncé exact de la question : aucune déduction d'après
+   l'étiquette politique, un sujet voisin, un texte non signé par le candidat ou une reformulation de journaliste.
+4. Une relecture indépendante, sans a priori sur le candidat, a confirmé que la citation soutient la valeur
+   (et, si besoin, recalibré son intensité).
 
-| Candidat | Parti | Statut de l'encodage |
-|----------|-------|----------------------|
-| Gabriel Attal | Renaissance / Ensemble | ⚠️ Simulation |
-| Édouard Philippe | Horizons | ⚠️ Simulation |
-| Marine Le Pen | Rassemblement National | ⚠️ Simulation |
-| Jean-Luc Mélenchon | La France Insoumise | ⚠️ Simulation |
-| François Ruffin | Gauche indépendante | ⚠️ Simulation |
-| Marine Tondelier | EELV | ⚠️ Simulation |
-| Éric Ciotti | Droite souverainiste | ⚠️ Simulation |
-| Éric Zemmour | Reconquête | ⚠️ Simulation |
+Barème : +2 accord total ferme et explicite, +1 accord partiel ou orientation générale favorable, 0 position
+explicitement mixte, -1 désaccord partiel, -2 désaccord total ferme et explicite.
 
----
+## Transparence
+
+- Le détail position par position (question, valeur, citation, lien, date) est publié dans [`sources/`](./sources).
+- Les candidats déclarés non intégrés (moins de 15 positions documentées), les candidats non déclarés et les
+  participants aux primaires en cours sont listés, avec leurs sources, dans le panneau « Candidats pris en compte »
+  de la page d'accueil de l'édition.
+- Les faits cités dans le contexte des 62 questions (chiffres, états du droit) ont été recontrôlés le 25 septembre 2026
+  sur des sources officielles : 24 contextes ont été mis à jour. Le détail, y compris les éléments non vérifiables,
+  est dans [`sources/AUDIT-FAITS.md`](./sources/AUDIT-FAITS.md).
+
+## Limites
+
+- Couverture partielle : les programmes officiels ne sont pas publiés.
+- Des positions datées de 2024 ou 2025 peuvent avoir évolué.
+- Le seuil de 15 positions est un choix éditorial, appliqué de la même manière à tous.
 
 ## Feuille de route
 
-- [x] Structure technique (questions, algorithme, interface) — identique à 2022
-- [x] Liste provisoire des candidats pressentis
-- [ ] Déclarations officielles de candidature
-- [ ] Publication des programmes officiels de campagne
-- [ ] Encodage des positions à partir des programmes
-- [ ] Relecture contradictoire des positions
-- [ ] Suppression de la bannière de simulation
-- [ ] Publication de l'édition définitive
-
----
-
-## Contribuer à cette édition
-
-Vous pouvez contribuer à la préparation de l'édition 2027 de plusieurs façons :
-
-- **Signaler une candidature** manquante ou incorrecte → Issue `[données-2027]`
-- **Proposer des questions** pertinentes pour 2027 → Issue `[nouvelle-édition]`
-- **Encoder les positions** d'un candidat à partir de son programme officiel → PR avec label `[données-2027]` et sources pour chaque position
-
-Lisez [`CONTRIBUTING.md`](../CONTRIBUTING.md) avant de soumettre.
-
-**Règle absolue :** les positions encodées doivent être basées sur des programmes ou déclarations officiels, pas sur des suppositions ou des positionnements idéologiques généraux.
-
----
-
-## Utilisation
-
-```bash
-open 2027/index.html
-```
-
----
-
-*Édition en cours de développement — les données ne sont pas représentatives des positions réelles des candidats.*
+- [x] Liste des candidats déclarés recoupée avec plusieurs sources
+- [x] Positions sourcées, vérifiées mot pour mot et relues
+- [x] Exclusion des positions non documentées du calcul
+- [ ] Intégration des candidats dont les positions seront documentées
+- [ ] Intégration des vainqueurs des primaires
+- [ ] Encodage à partir des programmes officiels de campagne
+- [ ] Liste officielle du Conseil constitutionnel (mars 2027)
+- [ ] Édition définitive

@@ -127,16 +127,31 @@ main { padding: 20px 0 8px; }
       <div class="slabel">Site 1 sur 3</div>
       <h2>Test de personnalité politique</h2>
       <p class="qui">Comparer ses opinions aux programmes des candidats à la présidentielle.</p>
-    <div class="faq">
+        <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
         Le projet est-il neutre vis-à-vis des candidats ?
         <span class="faq-arrow">▼</span>
       </button>
       <div class="faq-body">
-        <p>Chaque position attribuée à un candidat repose sur des sources publiques (programme officiel, déclarations publiques, votes au Parlement) citées dans le contexte de chaque question. Les mêmes questions et les mêmes échelles sont appliquées à tous les candidats. Quand une position n'est pas documentée, elle est laissée neutre (valeur <code>0</code>) plutôt que déduite.</p>
-        <p>Pour l'édition 2027, les positions sont des <strong>estimations</strong> en attente des programmes officiels de campagne : l'édition est signalée « Simulation » sur ses pages.</p>
+        <p>Les mêmes questions, la même échelle et les mêmes règles s'appliquent à tous les candidats. Les candidats sont classés par ordre alphabétique et leurs couleurs n'ont aucun lien avec leur parti.</p>
+        <p>Pour l'édition 2027, une position n'est retenue que si <strong>quatre conditions</strong> sont réunies : la citation figure mot pour mot dans une page publique consultable ; la source date de 2024 ou après ; elle exprime directement la position du candidat sur l'énoncé (jamais déduite de son étiquette politique, d'un sujet voisin ou d'un texte non signé par lui) ; une relecture indépendante a confirmé que la citation soutient la valeur. Chaque position renvoie à sa source dans les résultats.</p>
+        <p>Une position non documentée n'est <strong>pas</strong> remplacée par une valeur neutre : elle est exclue du calcul, et le nombre de positions comparées est affiché pour chaque candidat.</p>
+        <p>L'édition 2027 reste <strong>provisoire</strong> : aucun programme officiel de campagne n'est encore publié. Le détail de la recherche, position par position, est public dans le dépôt GitHub (dossier <code>2027/sources</code>).</p>
       </div>
     </div>
+
+    <div class="faq">
+      <button class="faq-btn" onclick="toggle(this)">
+        Comment les candidats de l'édition 2027 sont-ils choisis ?
+        <span class="faq-arrow">▼</span>
+      </button>
+      <div class="faq-body">
+        <p>La liste est <strong>politique, non juridique</strong> : les candidatures ne deviennent officielles qu'après validation par le Conseil constitutionnel (500 parrainages d'élus, échéance en mars 2027).</p>
+        <p>Un candidat est intégré s'il a <strong>publiquement déclaré sa candidature</strong> et si <strong>au moins 15 positions sur 62</strong> sont documentées selon les règles ci-dessus. Les candidats déclarés qui n'atteignent pas ce seuil, ceux qui n'ont pas déclaré leur candidature et les participants aux primaires en cours sont listés avec leurs sources dans le panneau « Candidats pris en compte » de la page d'accueil de l'édition 2027. Ils sont évalués selon la même règle dès que leurs positions sont documentées.</p>
+        <p>Le seuil de 15 positions est un choix éditorial : il garantit un minimum de comparabilité sans exclure les candidats dont le programme n'est pas encore publié. Il est appliqué de manière identique à tous.</p>
+      </div>
+    </div>
+
     <div class="faq">
       <button class="faq-btn" onclick="toggle(this)">
         Pourquoi le test ne couvre-t-il pas l'intégralité des programmes ?
@@ -162,7 +177,8 @@ main { padding: 20px 0 8px; }
 
         <div class="bias-box">
           <div class="bias-title">A. La "prime au flou" : le score <code>0</code></div>
-          <p>Lorsqu'un candidat n'a pas de position claire sur un sujet (encodé à <code>0</code>), sa compatibilité avec un utilisateur votant <code>+2</code> (Totalement d'accord) est mécaniquement de <strong>50 %</strong> : <code>1 − |2 − 0| / 4 = 0,50</code>.</p>
+          <p>Lorsqu'un candidat a une position explicitement mixte ou nuancée sur un sujet (encodée <code>0</code>), sa compatibilité avec un utilisateur votant <code>+2</code> (Totalement d'accord) est mécaniquement de <strong>50 %</strong> : <code>1 − |2 − 0| / 4 = 0,50</code>.</p>
+          <p>Pour l'édition 2027, une position <strong>non documentée</strong> n'est jamais encodée <code>0</code> : elle est exclue du calcul. Pour les éditions 2017 et 2022, une absence de position claire est encodée <code>0</code>.</p>
           <p><strong>L'effet :</strong> Un candidat aux positions floues ou centristes (beaucoup de <code>0</code>) obtiendra une compatibilité d'environ 50 % avec tout le monde, ni très proche ni très éloigné. Cela favorise légèrement les candidats aux programmes vagues sur les sujets clivants.</p>
           <p><strong>Sur le Filtre Décisif :</strong> Le critère d'élimination est <code>(vote &gt; 0 ET position &lt; 0) OU (vote &lt; 0 ET position &gt; 0)</code>. Un candidat à <code>0</code> survit à toute ligne rouge sur ce sujet : son absence de position n'est pas une opposition. C'est logique, mais cela signifie que les positions non tranchées protègent du filtre.</p>
           <div class="warn-box">
@@ -173,8 +189,9 @@ main { padding: 20px 0 8px; }
 
         <div class="bias-box">
           <div class="bias-title">B. Les coordonnées de la boussole politique</div>
-          <p>La position de l'<strong>utilisateur</strong> sur la boussole est calculée dynamiquement à partir de ses réponses (somme pondérée sur les axes gauche/droite et progressiste/conservateur). En revanche, la position des <strong>candidats</strong> sur la boussole est codée en dur, c'est une estimation.</p>
-          <p>Cela signifie que si l'on calculait la position d'un candidat en passant ses réponses encodées dans le même algorithme, elle ne correspondrait pas nécessairement exactement aux coordonnées affichées. C'est une pratique standard (les politologues placent généralement les partis de façon absolue sur ces axes), mais la boussole doit être lue comme une <strong>représentation orientée</strong>, non comme un résultat de calcul pur.</p>
+          <p>La position de l'<strong>utilisateur</strong> sur la boussole est calculée à partir de ses réponses (somme pondérée sur les axes gauche/droite et progressiste/conservateur).</p>
+          <p><strong>Édition 2027 :</strong> la position des candidats est calculée avec la même formule, à partir de leurs positions documentées. Un candidat n'apparaît sur la boussole que si au moins 4 positions documentées existent sur chaque axe.</p>
+          <p><strong>Éditions 2017 et 2022 :</strong> la position des candidats est codée en dur, c'est une estimation. Elle ne correspond pas nécessairement à ce que donnerait le même algorithme appliqué à leurs réponses encodées ; la boussole doit alors être lue comme une <strong>représentation orientée</strong>, non comme un résultat de calcul pur.</p>
         </div>
       </div>
     </div>

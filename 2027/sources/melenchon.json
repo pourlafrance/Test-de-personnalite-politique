@@ -1,0 +1,397 @@
+{
+ "candidat": "Jean-Luc Mélenchon",
+ "parti": "La France insoumise",
+ "date_recherche": "2026-09-25",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027 : annonce « Oui, je suis candidat » au 20 Heures de TF1 le 3 mai 2026 (quatrième campagne présidentielle). Site de collecte des parrainages citoyens melenchon2027.fr en ligne (objectif 150 000 soutiens) ; meeting national de lancement de la campagne à Saint-Denis le 7 juin 2026 ; compte officiel décrit comme « Candidat de la France insoumise à l'élection présidentielle de 2027 » sur melenchon.fr (septembre 2026). Aucune investiture officielle par le Conseil constitutionnel à cette date (dépôt des parrainages d'élus non abordé dans les sources lues).",
+  "sources": [
+   "https://lcp.fr/actualites/presidentielle-jean-luc-melenchon-officialise-sa-candidature-pour-2027-435851",
+   "https://melenchon2027.fr/",
+   "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/"
+  ]
+ },
+ "positions_documentees": 42,
+ "positions_total": 62,
+ "programme_officiel_publie": true,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 2,
+   "question": "L'âge légal de départ à la retraite doit être abaissé pour les carrières longues.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Le but reste l'abrogation de la réforme des retraites à 64 ans puis le retour à 60 ans.",
+   "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+   "date_source": "2026-06-07"
+  },
+  {
+   "question_id": 3,
+   "question": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) doit être significativement augmenté.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Le Smic passera à 1 700 euros.",
+   "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+   "date_source": "2026-06-07"
+  },
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF), incluant un volet climatique visant à taxer les gros pollueurs",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "L'instauration d'un protectionnisme solidaire protègera l'industrie d'une concurrence déloyale ou fondée sur le non-respect des droits humains ou l'extractivisme forcené.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "Notre outil sera la planification puisque le marché et la concurrence ont montré leur incapacité à relever ces défis.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 9,
+   "question": "Le droit du sol doit être supprimé ou fortement restreint.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "Né en France ? Français ! Pas touche !",
+   "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+   "date_source": "2026-06-07"
+  },
+  {
+   "question_id": 10,
+   "question": "L'intégration des personnes immigrées nécessite davantage de moyens publics.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Prendre en charge les personnes migrantes grâce à des structures d'accueil et d'hébergement en nombre suffisant sur tout le territoire, en finir avec le délit de solidarité",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 12,
+   "question": "La France doit recruter davantage de forces de l'ordre.",
+   "theme": "Sécurité",
+   "valeur": 1,
+   "citation": "Augmenter les effectifs en charge de la délinquance financière, du trafic d'êtres humains et du démantèlement des réseaux mafieux et doubler les effectifs de la police technique et scientifique",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 13,
+   "question": "La légalisation du cannabis à usage récréatif doit être envisagée.",
+   "theme": "Sécurité",
+   "valeur": 2,
+   "citation": "Légaliser et encadrer par un monopole d'État la consommation, la production et la vente de cannabis à des fins récréatives dans des conditions permettant de lutter contre l'addiction",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": 2,
+   "citation": "la récupération par les États de leur souveraineté budgétaire",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "L'urgence écologique et climatique suppose de rompre avec le système de l'argent-roi.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": -2,
+   "citation": "Le nucléaire n'est pas non plus une solution d'avenir.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF), incluant un volet climatique visant à taxer les gros pollueurs",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 19,
+   "question": "Le système de santé doit rester entièrement public, sans aucune privatisation.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "instaurer le « 100 % Sécu » en remboursant à 100 % les soins de santé prescrits et en intégrant les mutuelles dans la Sécurité sociale",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 20,
+   "question": "Les aides sociales (Revenu de Solidarité Active, allocations) doivent être conditionnées à une démarche active de retour à l'emploi.",
+   "theme": "Santé & Social",
+   "valeur": -2,
+   "citation": "Abroger la loi France Travail et l'obligation de réaliser 15h d'activités hebdomadaires contre le revenu de remplacement (allocation-chômage, RSA, ASS, etc.)",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 21,
+   "question": "L'État doit construire massivement des logements sociaux pour répondre à la crise du logement.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "Construire 200 000 logements publics par an pendant cinq ans aux normes écologiques les plus ambitieuses",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 23,
+   "question": "Le droit au mariage doit être ouvert à tous les couples, quelle que soit leur orientation sexuelle.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "le droit au mariage pour tous a pu trouver son chemin et son aboutissement dans une société désormais moins brutale et mieux éclairée sur ce sujet.",
+   "url": "https://melenchon.fr/2024/11/23/vers-la-liberte-du-genre/",
+   "date_source": "2024-11-23"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Instaurer le Référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "En avant vers la sixième République.",
+   "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+   "date_source": "2026-06-07"
+  },
+  {
+   "question_id": 28,
+   "question": "Les inégalités économiques constituent le problème le plus urgent à résoudre en France.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "il est urgent d'en finir avec la société des privilèges, les grandes disparités de richesses et d'éradiquer l'abandon social.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 2,
+   "citation": "pour que cela change, il faut tout changer.",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 31,
+   "question": "La mondialisation économique a plutôt été néfaste pour les travailleurs français.",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "La compétition de tous contre tous qu'elle instaure signifie désindustrialisation, chômage de masse, émigration forcée, destruction des productions vivrières",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 32,
+   "question": "L'enseignement privé doit recevoir moins de financement public que l'enseignement public.",
+   "theme": "Éducation",
+   "valeur": 2,
+   "citation": "Abolir les privilèges de l'enseignement privé et abroger la loi Carle",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 2,
+   "citation": "Garantir des prix rémunérateurs aux producteurs par des prix planchers pour les agriculteurs, interdire les ventes à perte",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 36,
+   "question": "La flat tax (Prélèvement Forfaitaire Unique) sur les revenus du capital doit être supprimée au profit d'une imposition progressive.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Supprimer la flat tax et imposer les revenus du capital comme ceux du travail",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 38,
+   "question": "La semaine de travail doit être réduite à 32 heures sans perte de salaire.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "passer aux 32 heures dans les métiers pénibles ou de nuit, et favoriser leur généralisation par la négociation collective",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 39,
+   "question": "Les industries énergétiques et les transports doivent être renationalisés.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "pôle public de l'énergie en lien avec des coopératives locales en renationalisant EDF et Engie",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 40,
+   "question": "Les personnes sans-papiers résidant depuis plusieurs années en France doivent pouvoir être régularisées.",
+   "theme": "Immigration",
+   "valeur": 2,
+   "citation": "régulariser les travailleurs, étudiants, parents d'enfants scolarisés",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": -2,
+   "citation": "Garantir pleinement le droit d'asile et la prise en compte des identités de genre et orientations sexuelles dans les procédures, notamment en prenant le temps d'étudier chaque dossier",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 43,
+   "question": "La France devrait sortir de la zone euro ou en renégocier en profondeur les règles.",
+   "theme": "Europe",
+   "valeur": 1,
+   "citation": "nous proposons aux États et aux peuples européens la rupture concertée avec les traités actuels (plan A)",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 44,
+   "question": "Les pesticides de synthèse doivent être interdits dans l'agriculture française d'ici 2030.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "Planifier la réduction progressive des doses d'engrais et de pesticides, interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes)",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 46,
+   "question": "La pratique de la chasse doit être plus strictement réglementée.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "Interdire les pratiques de chasse et de « loisirs » cruelles pour les animaux (déterrage, chasses à courre, corrida",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 47,
+   "question": "L'euthanasie active doit être légalisée en France pour les malades en fin de vie.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Ajouter le droit de mourir dans la dignité (y compris avec assistance) et l'accès garanti à des soins palliatifs dans la Constitution",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 48,
+   "question": "La prise en charge de la dépendance des personnes âgées doit être intégralement couverte par la Sécurité Sociale.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Construire un service public de la dépendance, pour aider les seniors à rester à domicile",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 49,
+   "question": "L'encadrement des loyers doit être généralisé dans toutes les grandes villes françaises.",
+   "theme": "Santé & Social",
+   "valeur": 2,
+   "citation": "Encadrer les loyers partout sur le territoire et à la baisse dans les grandes villes",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 52,
+   "question": "La représentation proportionnelle doit être introduite aux élections législatives.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "Élire l'Assemblée nationale au scrutin proportionnel",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 55,
+   "question": "La France doit rester dans le commandement intégré de l'Organisation du Traité de l'Atlantique Nord (OTAN).",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 56,
+   "question": "L'aide publique au développement doit être augmentée pour atteindre l'objectif fixé par l'ONU (0,7 % du RNB).",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 57,
+   "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
+   "theme": "Éducation",
+   "valeur": -2,
+   "citation": "Suspendre l'expérimentation de l'uniforme",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 58,
+   "question": "Un service civique obligatoire d'un an doit être instauré pour tous les jeunes Français.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "Nous proposons un service citoyen obligatoire avant l'âge de 25 ans, rémunéré au SMIC revalorisé pendant neuf mois",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 60,
+   "question": "Les déserts médicaux doivent être combattus par une obligation d'installation des médecins dans les zones sous-dotées.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Réguler l'installation des médecins et généraliser les guichets uniques pour toutes les démarches d'installation des soignants",
+   "url": "https://melenchon2027.fr/wp-content/uploads/2025/avenir_en_commun_2025.pdf",
+   "date_source": "2025-01-28"
+  },
+  {
+   "question_id": 62,
+   "question": "L'inscription du droit à l'avortement dans la Constitution (mars 2024) doit être maintenue et consolidée.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "la constitutionnalisation du droit à l'IVG",
+   "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/",
+   "date_source": "2026-06-07"
+  }
+ ]
+}
