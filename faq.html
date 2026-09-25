@@ -57,6 +57,15 @@ main { padding: 20px 0 8px; }
 .liens-sources { list-style: none; padding: 0; margin: 0 0 9px; }
 .liens-sources li { padding: 8px 0; border-top: 1px solid var(--plf-filet); }
 .liens-sources li:first-child { border-top: none; }
+
+.table-scroll { overflow-x: auto; margin: 12px 0 8px; }
+.tab-cand { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+.tab-cand th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--plf-muted); padding: 8px 10px; border-bottom: 1px solid var(--plf-ink); }
+.tab-cand td { padding: 8px 10px; border-bottom: 1px solid var(--plf-filet); color: var(--plf-texte-2); }
+.tab-cand td.num { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--plf-ink); font-weight: 600; }
+.tab-cand tr.ok td:last-child { color: var(--plf-pour); font-weight: 600; }
+.tab-cand tr.ko td:last-child { color: var(--plf-muted); }
+.note-table { font-size: 12.5px; color: var(--plf-muted); }
 </style>
 </head>
 <body class="plf">
@@ -140,15 +149,18 @@ main { padding: 20px 0 8px; }
       </div>
     </div>
 
-    <div class="faq">
+    <div class="faq" id="candidats-2027">
       <button class="faq-btn" onclick="toggle(this)">
-        Comment les candidats de l'édition 2027 sont-ils choisis ?
+        Comment les candidats de l'édition 2027 sont-ils choisis, et pourquoi certains sont-ils absents ?
         <span class="faq-arrow">▼</span>
       </button>
       <div class="faq-body">
         <p>La liste est <strong>politique, non juridique</strong> : les candidatures ne deviennent officielles qu'après validation par le Conseil constitutionnel (500 parrainages d'élus, échéance en mars 2027).</p>
-        <p>Un candidat est intégré s'il a <strong>publiquement déclaré sa candidature</strong> et si <strong>au moins 15 positions sur 62</strong> sont documentées selon les règles ci-dessus. Les candidats déclarés qui n'atteignent pas ce seuil, ceux qui n'ont pas déclaré leur candidature et les participants aux primaires en cours sont listés avec leurs sources dans le panneau « Candidats pris en compte » de la page d'accueil de l'édition 2027. Ils sont évalués selon la même règle dès que leurs positions sont documentées.</p>
-        <p>Le seuil de 15 positions est un choix éditorial : il garantit un minimum de comparabilité sans exclure les candidats dont le programme n'est pas encore publié. Il est appliqué de manière identique à tous.</p>
+        <p><strong>Une seule règle, appliquée à tous sans dérogation.</strong> Un candidat est intégré s'il a publiquement déclaré sa candidature <em>et</em> si au moins 15 positions sur 62 sont documentées. Une position n'est retenue que si sa citation figure mot pour mot dans une page publique, si la source date de 2024 ou après, si elle exprime directement la position du candidat sur l'énoncé (jamais déduite de son étiquette politique ou d'un sujet voisin) et si une relecture indépendante l'a confirmée.</p>
+        <p>Cette règle ne dépend ni du parti ni de la sensibilité politique. Elle a pourtant un effet : les candidats dont les formations publient surtout des textes de mobilisation plutôt que des mesures détaillées, notamment à gauche, atteignent plus difficilement le seuil. Ajouter un candidat à la main pour équilibrer la boussole reviendrait à choisir le résultat au lieu d'appliquer la règle : nous ne le faisons pas. Un candidat entre dans le test dès que ses positions sont documentées.</p>
+        <div class="table-scroll"><table class="tab-cand"><thead><tr><th>Candidat</th><th>Parti</th><th>Positions documentées</th><th>Statut</th></tr></thead><tbody><tr class="ok"><td>Jean-Luc Mélenchon</td><td>La France insoumise</td><td class="num">42&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Nicolas Dupont-Aignan</td><td>Debout la France</td><td class="num">38&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Bruno Retailleau</td><td>Les Républicains</td><td class="num">34&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>David Lisnard</td><td>Nouvelle Énergie</td><td class="num">31&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Juan Branco</td><td>Les Ruches</td><td class="num">26&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Marine Le Pen</td><td>Rassemblement national</td><td class="num">19&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Édouard Philippe</td><td>Horizons</td><td class="num">19&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Gabriel Attal</td><td>Renaissance</td><td class="num">17&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Florian Philippot</td><td>Les Patriotes</td><td class="num">17&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ok"><td>Éric Zemmour</td><td>Reconquête</td><td class="num">17&nbsp;/&nbsp;62</td><td>Intégré</td></tr><tr class="ko"><td>Anasse Kazib</td><td>Révolution permanente</td><td class="num">14&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Fabien Roussel</td><td>Parti communiste français</td><td class="num">13&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Nathalie Arthaud</td><td>Lutte ouvrière</td><td class="num">11&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Selma Labib</td><td>NPA-Révolutionnaires</td><td class="num">9&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Delphine Batho</td><td>Génération écologie</td><td class="num">8&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Francis Lalanne</td><td>France Libre</td><td class="num">8&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Karim Bouamrane</td><td>Parti socialiste</td><td class="num">7&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Olivier Becht</td><td>Le Projet France</td><td class="num">5&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Antoine Mikolajczak</td><td>Équinoxe</td><td class="num">3&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>Clara Egger</td><td>Solution démocratique</td><td class="num">2&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr><tr class="ko"><td>François Asselineau</td><td>Union populaire républicaine</td><td class="num">1&nbsp;/&nbsp;62</td><td>Non intégré : moins de 15 positions documentées</td></tr></tbody></table></div>
+        <p class="note-table">Positions documentées : nombre de positions retenues sur 62 (citation vérifiée mot pour mot, source de 2024 ou après, aucune déduction). Pour les candidats sous le seuil, le décompte est celui des contrôles automatiques, sauf pour Fabien Roussel et Nathalie Arthaud (après relecture indépendante). Programme officiel de campagne non publié pour tous à ce jour.</p>
+        <p><strong>Pas de candidature déclarée à ce jour.</strong> Xavier Bertrand n'a pas déclaré sa candidature (14 positions documentées). <strong>Primaires en cours.</strong> Raphaël Glucksmann, Marine Tondelier, François Ruffin, Olivier Faure et les autres participants aux primaires de gauche prévues en octobre 2026 n'ont pas encore de candidature à la présidentielle définitive : ils seront évalués selon la même règle une fois les résultats connus.</p>
       </div>
     </div>
 
@@ -322,6 +334,13 @@ main { padding: 20px 0 8px; }
 </div>
 
 <script>
+function ouvrirAncre(){
+  var h=location.hash.slice(1); if(!h) return;
+  var el=document.getElementById(h); if(!el) return;
+  var b=el.querySelector('.faq-btn'); if(b && !b.classList.contains('open')) toggle(b);
+  el.scrollIntoView();
+}
+window.addEventListener('load',ouvrirAncre); window.addEventListener('hashchange',ouvrirAncre);
 function toggle(btn){
   btn.classList.toggle('open');
   btn.nextElementSibling.classList.toggle('open');
