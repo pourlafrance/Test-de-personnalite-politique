@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pourlafrance.github.io/Test-de-personnalite-politique/sitemap.xml
