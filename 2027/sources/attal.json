@@ -28,7 +28,7 @@
    "question_id": 5,
    "question": "Il faut réduire les prélèvements obligatoires pesant sur les entreprises pour favoriser la compétitivité.",
    "theme": "Économie",
-   "valeur": 2,
+   "valeur": 1,
    "citation": "Il souhaite parallèlement mener enfin à terme la suppression de la CVAE",
    "url": "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027",
    "date_source": "2026-08-27"
@@ -91,7 +91,7 @@
    "question_id": 22,
    "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
    "theme": "Société",
-   "valeur": 0,
+   "valeur": -1,
    "citation": "garantir à chacun la liberté de croire ou de ne pas croire, sans instaurer d’interdiction générale du voile pour les femmes adultes.",
    "url": "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france",
    "date_source": "2026-09-06"
@@ -118,7 +118,7 @@
    "question_id": 29,
    "question": "Un changement social profond est nécessaire et urgent en France.",
    "theme": "Valeurs",
-   "valeur": 1,
+   "valeur": 2,
    "citation": "On n’en est plus à bouger des critères ou des curseurs de notre système. On en est à changer notre système.",
    "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-remettre-l-exigence-au-coeur-de-l-ecole-et-transformer-le-modele-francais-sur-france-info",
    "date_source": "2026-09-09"

@@ -10,7 +10,7 @@ Ce dépôt regroupe les éditions du test pour chaque élection présidentielle 
 
 | Édition | Statut | Candidats | Questions |
 |---------|--------|-----------|-----------|
-| [2027](./2027/) | 🚧 Simulation — en préparation | 8 pressentis | 62 |
+| [2027](./2027/) | 🚧 Simulation — en préparation | 13 déclarés | 62 |
 | [2022](./2022/) | ✅ Disponible | 12 | 62 |
 | [2017](./2017/) | ✅ Disponible | 11 | 62 |
 

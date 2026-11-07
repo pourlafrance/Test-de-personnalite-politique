@@ -1,0 +1,164 @@
+{
+ "candidat": "Fabien Roussel",
+ "parti": "Parti communiste français",
+ "date_recherche": "2026-11-08",
+ "statut_candidature": {
+  "texte": "Candidat déclaré. Les adhérents du PCF, consultés du 3 au 6 septembre 2026, ont validé sa candidature à l'élection présidentielle de 2027 à 72,06 % des suffrages exprimés (communiqué pcf.fr du 6 septembre 2026, « le PCF propose donc la candidature de Fabien Roussel à l’élection présidentielle de 2027 »). Le 15 septembre 2026, à la Fête de l'Humanité, il déclare « en 2027 il faut gagner ». Le 7 novembre 2026, la déclaration du Conseil national du PCF indique être « pleinement engagé dans la campagne présidentielle aux côtés de Fabien Roussel ». Site de campagne : fabienroussel2027.fr. Dernière source consultée : 7 novembre 2026 ; aucune source sur un retrait n'a été trouvée.",
+  "sources": [
+   "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+   "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+   "https://www.pcf.fr/presidentielle_2027_lexigence_de_respect_de_nos_choix_democratiques_declaration_du_conseil_national_du_pcf",
+   "https://fabienroussel2027.fr/"
+  ]
+ },
+ "positions_documentees": 16,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 1,
+   "question": "L'État doit augmenter les dépenses publiques pour améliorer les services publics, quitte à creuser davantage la dette.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "leur obsession de la réduction sans fin de la dépense publique au nom d'une dette qu'ils ont eux même créée",
+   "url": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+   "date_source": "2026-07-08"
+  },
+  {
+   "question_id": 3,
+   "question": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) doit être significativement augmenté.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "avec un Smic à 2 000 euros brut",
+   "url": "https://www.pcf.fr/reprendre_main_sur_argent_extraits_discours_roussel_fdh24",
+   "date_source": "2024-09-18"
+  },
+  {
+   "question_id": 4,
+   "question": "Un Impôt sur la Fortune (ISF) doit être rétabli pour les très hauts patrimoines.",
+   "theme": "Économie",
+   "valeur": 2,
+   "citation": "Oui, nous rétablirons l'impôt de solidarité sur la fortune.",
+   "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+   "date_source": "2026-09-15"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Travaillons aux moyens de ré industrialiser nos pays. Remettons en cause les traités de libre-échange européens.",
+   "url": "https://www.pcf.fr/conference_europeenne_discours_fabien_roussel",
+   "date_source": "2025-05-06"
+  },
+  {
+   "question_id": 7,
+   "question": "L'État est trop présent dans la vie économique et doit laisser davantage de place à l'initiative privée.",
+   "theme": "Économie",
+   "valeur": -2,
+   "citation": "nationalisation, planification, socialisation, voilà la triple perspective que nous mettrons en place pour notre pays",
+   "url": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+   "date_source": "2026-07-08"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "Nous affirmons que non seulement ce plan climat est une urgence pour la France, pour la biodiversité, pour la planète",
+   "url": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+   "date_source": "2026-07-08"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 2,
+   "citation": "Il y a l'énergie nucléaire qui doit être développée largement si nous voulons demain engager concrètement l'électrification du pays",
+   "url": "https://www.pcf.fr/discours_de_fabien_roussel_fete_huma_31",
+   "date_source": "2026-06-02"
+  },
+  {
+   "question_id": 22,
+   "question": "Les signes religieux ostensibles doivent être davantage limités dans l'espace public.",
+   "theme": "Société",
+   "valeur": -2,
+   "citation": "C'est ça qu'il faut interdire partout et pas le voile. Ce n'est pas le voile qui menace la République",
+   "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+   "date_source": "2026-09-15"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 1,
+   "citation": "C'est construire une nouvelle République qui nous met tous à égalité et donne des pouvoirs nouveaux aux citoyens et citoyennes.",
+   "url": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+   "date_source": "2026-07-08"
+  },
+  {
+   "question_id": 29,
+   "question": "Un changement social profond est nécessaire et urgent en France.",
+   "theme": "Valeurs",
+   "valeur": 1,
+   "citation": "Ces deux leviers sont indispensables pour changer la société en profondeur",
+   "url": "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel",
+   "date_source": "2026-07-08"
+  },
+  {
+   "question_id": 30,
+   "question": "La France doit augmenter significativement son budget de défense nationale.",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "mais il y a 36 milliards d'euros pour le budget de la Défense. A cela, nous disons non ! Pas d'argent pour les bombes !",
+   "url": "https://www.pcf.fr/discours_de_fabien_roussel_fete_huma_31",
+   "date_source": "2026-06-02"
+  },
+  {
+   "question_id": 31,
+   "question": "La mondialisation économique a plutôt été néfaste pour les travailleurs français.",
+   "theme": "International",
+   "valeur": 1,
+   "citation": "ayant signé tous les traités internationaux permettant de dépecer notre pays, délocalisant nos usines, organisant une concurrence féroce des travailleurs entre eux",
+   "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+   "date_source": "2026-09-15"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 2,
+   "citation": "Garantir un travail rémunérateur aux agriculteurs en instaurant des offices publics qui, production par production, seront chargés d’établir un prix plancher",
+   "url": "https://www.pcf.fr/lettre_roussel_bayrou_loi_duplomb",
+   "date_source": "2025-08-22"
+  },
+  {
+   "question_id": 39,
+   "question": "Les industries énergétiques et les transports doivent être renationalisés.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "EDF, GDF, Total doivent redevenir des entreprises publiques nationales au service de l'État",
+   "url": "https://www.pcf.fr/discours_de_fabien_roussel_fete_huma_31",
+   "date_source": "2026-06-02"
+  },
+  {
+   "question_id": 51,
+   "question": "La Gestation Pour Autrui (GPA) doit rester totalement interdite en France.",
+   "theme": "Société",
+   "valeur": 2,
+   "citation": "en refusant la prostitution, en refusant la GPA",
+   "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+   "date_source": "2026-09-15"
+  },
+  {
+   "question_id": 55,
+   "question": "La France doit rester dans le commandement intégré de l'Organisation du Traité de l'Atlantique Nord (OTAN).",
+   "theme": "International",
+   "valeur": -2,
+   "citation": "Oui, la France a les moyens de sortir à court terme du commandement intégré de l’OTAN",
+   "url": "https://www.pcf.fr/conference_europeenne_discours_fabien_roussel",
+   "date_source": "2025-05-06"
+  }
+ ]
+}

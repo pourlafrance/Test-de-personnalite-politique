@@ -9,7 +9,7 @@
    "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle"
   ]
  },
- "positions_documentees": 26,
+ "positions_documentees": 25,
  "positions_total": 62,
  "programme_officiel_publie": true,
  "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
@@ -164,15 +164,6 @@
    "theme": "Immigration",
    "valeur": 1,
    "citation": "Mise en place de critères objectivables d’intégration concernant les étrangers, accompagnée d’obligations de service à la nation, dans le cadre des régularisations de personnes dénuées de titres de séjour.",
-   "url": "https://ruches.org/le-projet",
-   "date_source": "2026-09-25"
-  },
-  {
-   "question_id": 41,
-   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
-   "theme": "Immigration",
-   "valeur": 1,
-   "citation": "Accroissement des moyens relatifs au traitement administratif des questions migratoires aux fins de réduction des temps d’attente.",
    "url": "https://ruches.org/le-projet",
    "date_source": "2026-09-25"
   },

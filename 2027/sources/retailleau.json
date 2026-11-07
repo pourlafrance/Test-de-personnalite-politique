@@ -157,7 +157,7 @@
    "question_id": 26,
    "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
    "theme": "Démocratie",
-   "valeur": 0,
+   "valeur": -2,
    "citation": "Les institutions de la Ve République sont bonnes, c’est leur dévoiement qui a conduit à cette situation.",
    "url": "https://republicains.fr/actualites/2026/09/02/en-france-la-seule-cour-supreme-cest-le-peuple-je-lui-donnerai-le-dernier-mot/",
    "date_source": "2026-09-02"
@@ -301,7 +301,7 @@
    "question_id": 57,
    "question": "L'uniforme scolaire doit être rendu obligatoire dans les établissements publics français.",
    "theme": "Éducation",
-   "valeur": 1,
+   "valeur": -1,
    "citation": "le port de l’uniforme encouragé",
    "url": "https://republicains.fr/wp-content/uploads/2026/09/LR_Ecole_vF.pdf",
    "date_source": "2026-08-31"
