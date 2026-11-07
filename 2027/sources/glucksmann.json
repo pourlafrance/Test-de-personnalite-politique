@@ -1,0 +1,200 @@
+{
+ "candidat": "Raphaël Glucksmann",
+ "parti": "Place publique",
+ "date_recherche": "2026-11-08",
+ "statut_candidature": {
+  "texte": "Candidat déclaré à l'élection présidentielle de 2027 : lettre aux Français publiée le 25 août 2026 sur le site de Place publique (« Je suis candidat à la Présidence de la République »). Désigné le 11 octobre 2026, dès le premier tour, candidat de la primaire de la gauche sociale-démocrate avec plus de 66 % des suffrages sur 120 787 votants (La Gazette France, 12 octobre 2026 ; AFP via Paris Match, 12 octobre 2026). Site de campagne actif (glucks2027.fr) annonçant un meeting de lancement de campagne le 6 décembre 2026 à Paris.",
+  "sources": [
+   "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
+   "https://www.lagazettefrance.fr/article/victorieux-a-la-primaire-les-choses-serieuses-commencent-pour-raphael-glucksmann",
+   "https://www.parismatch.be/actualites/monde/2026/10/12/largement-elu-candidat-de-la-gauche-sociale-democrate-a-la-presidentielle-francaise-raphael-glucksmann-enfarine-dans-les-rues-de-paris-video-TEQ6BAP5RZAO3H43KTQKEH52JA/",
+   "https://glucks2027.fr/"
+  ]
+ },
+ "positions_documentees": 20,
+ "positions_total": 62,
+ "programme_officiel_publie": false,
+ "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
+ "positions": [
+  {
+   "question_id": 2,
+   "question": "L'âge légal de départ à la retraite doit être abaissé pour les carrières longues.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Il y a des gens qui doivent pouvoir partir à 60 ans, car ils sont cassés, avec une espérance de vie réduite à la retraite",
+   "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-pas-candidat-pour-le-moment-raphael-glucksmann-trace-son-chemin-et-defend-sa-vision-pour-le-pays",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 3,
+   "question": "Le Salaire Minimum Interprofessionnel de Croissance (SMIC) doit être significativement augmenté.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Augmenter le SMIC à 1600 euros net dans les deux ans qui suivent notre accession au pouvoir.",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 6,
+   "question": "La France doit protéger ses industries stratégiques de la concurrence internationale.",
+   "theme": "Économie",
+   "valeur": 1,
+   "citation": "Nous protégerons nos productions et nous remettrons des usines dans nos territoires.",
+   "url": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais",
+   "date_source": "2026-08-25"
+  },
+  {
+   "question_id": 10,
+   "question": "L'intégration des personnes immigrées nécessite davantage de moyens publics.",
+   "theme": "Immigration",
+   "valeur": 1,
+   "citation": "Faciliter les démarches de régularisation des travailleurs sans papiers, programmer des cours de français universels suffisants pour atteindre le niveau A2",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 14,
+   "question": "La France doit récupérer des compétences souveraines vis-à-vis de l'Union européenne.",
+   "theme": "Europe",
+   "valeur": -1,
+   "citation": "Nous assumons ces délégations de souveraineté",
+   "url": "https://www.publicsenat.fr/actualites/politique/europeennes-2024-raphael-glucksmann-prone-dans-son-programme-une-revolution-ecologique",
+   "date_source": "2024-05-15"
+  },
+  {
+   "question_id": 16,
+   "question": "La transition écologique doit être une priorité absolue, même si elle implique des efforts économiques importants.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "C’est une priorité absolue. Le cœur de notre projet européen, c’est l’avènement d’une puissance écologique.",
+   "url": "https://reporterre.net/Raphael-Glucksmann-Il-faut-sortir-l-ecologie-politique-de-son-ghetto",
+   "date_source": "2024-05-15"
+  },
+  {
+   "question_id": 17,
+   "question": "L'énergie nucléaire doit rester une composante importante du mix énergétique français.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "La rationalité nous oblige à accepter une part de nucléaire dans le mix énergétique.",
+   "url": "https://reporterre.net/Raphael-Glucksmann-Il-faut-sortir-l-ecologie-politique-de-son-ghetto",
+   "date_source": "2024-05-15"
+  },
+  {
+   "question_id": 18,
+   "question": "Les activités très polluantes doivent être beaucoup plus fortement taxées.",
+   "theme": "Écologie",
+   "valeur": 1,
+   "citation": "taxation des plus gros pollueurs individuels (jets privés, yachts, SUV…)",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 21,
+   "question": "L'État doit construire massivement des logements sociaux pour répondre à la crise du logement.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "accélérer la construction de logements sociaux en réhaussant les objectifs nationaux annuels",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 25,
+   "question": "Le recours au référendum doit être généralisé pour les grandes décisions politiques nationales.",
+   "theme": "Démocratie",
+   "valeur": 1,
+   "citation": "Instaurer un droit d’initiative citoyenne, permettant de déclencher des séquences démocratiques avec des référendums à l’échelle locale et nationale",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 26,
+   "question": "Les institutions de la Ve République doivent être profondément réformées ou remplacées par une 6e République.",
+   "theme": "Démocratie",
+   "valeur": 1,
+   "citation": "Lancer en parallèle une grande convention citoyenne qui jettera les bases d’une assemblée constituante pour changer la Constitution.",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 34,
+   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
+   "theme": "Agriculture",
+   "valeur": 1,
+   "citation": "Reforme de la PAC, revenus décents, partage juste de l’eau comme de la valeur, protection face à la concurrence déloyale: nous ferons de la transition écologique un grand projet pour l’agriculture française.",
+   "url": "https://place-publique.eu/posts/68jyTyNjDww1F2yvJ1c4St/reaction-de-raphael-glucksmann-suite-a-l-adoption-de-la-loi-d-urgence-agricole",
+   "date_source": "2026-07-21"
+  },
+  {
+   "question_id": 35,
+   "question": "Les grandes plateformes numériques (Google, Amazon, Meta…) doivent être beaucoup plus strictement régulées.",
+   "theme": "Numérique",
+   "valeur": 2,
+   "citation": "Nous nous attaquerons au cœur du business model de ces plateformes en interdisant la publicité ciblée",
+   "url": "https://www.20minutes.fr/politique/4228893-20260613-bousillent-cerveau-enfants-dirigeants-raphael-glucksmann-prend-geants-numerique",
+   "date_source": "2026-06-13"
+  },
+  {
+   "question_id": 41,
+   "question": "La politique d'asile doit être durcie avec des délais d'instruction raccourcis.",
+   "theme": "Immigration",
+   "valeur": -1,
+   "citation": "Common procedure for international protection in the Union",
+   "url": "https://howtheyvote.eu/votes/167632",
+   "date_source": "2024-04-10"
+  },
+  {
+   "question_id": 49,
+   "question": "L'encadrement des loyers doit être généralisé dans toutes les grandes villes françaises.",
+   "theme": "Santé & Social",
+   "valeur": 1,
+   "citation": "Encadrer les loyers dans les zones en grande tension pour garantir l’accès au logement aux ménages modestes.",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 52,
+   "question": "La représentation proportionnelle doit être introduite aux élections législatives.",
+   "theme": "Démocratie",
+   "valeur": 2,
+   "citation": "La proportionnelle, c'est la clarification, c'est l'esprit de compromis, c'est la sincérité face aux électrices et aux électeurs. C'est aussi une représentativité infiniment plus démocratique que le système actuel",
+   "url": "https://www.lagazettefrance.fr/article/la-proportionnelle-c-est-la-clarification-et-l-esprit-de-compromis-selon-glucksmann",
+   "date_source": "2025-05-23"
+  },
+  {
+   "question_id": 56,
+   "question": "L'aide publique au développement doit être augmentée pour atteindre l'objectif fixé par l'ONU (0,7 % du RNB).",
+   "theme": "International",
+   "valeur": 2,
+   "citation": "Renforcer la loi de développement solidaire en intégrant une programmation budgétaire annuelle pour atteindre progressivement 0,7 % du RNB dédié à l’aide publique au développement.",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  },
+  {
+   "question_id": 58,
+   "question": "Un service civique obligatoire d'un an doit être instauré pour tous les jeunes Français.",
+   "theme": "Éducation",
+   "valeur": 1,
+   "citation": "proposer un service universel et obligatoire, mais qui ne sera pas nécessairement militaire, qui peut être aussi civique",
+   "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/plan-de-trump-pour-l-ukraine-retour-du-service-militaire-et-desunion-de-la-gauche-le-8-30-franceinfo-de-raphael-glucksmann_7606847.html",
+   "date_source": "2025-11-24"
+  },
+  {
+   "question_id": 59,
+   "question": "Les normes environnementales imposées aux agriculteurs français doivent être allégées pour rester compétitifs.",
+   "theme": "Agriculture",
+   "valeur": -1,
+   "citation": "Plutôt que de s’attaquer au partage injuste de la PAC et de la valeur, à la concurrence déloyale, la droite et l’extrême-droite s’en prennent comme toujours aux normes environnementales. Elles préfèrent offrir des pesticides qu’un revenu décent à nos agriculteurs.",
+   "url": "https://place-publique.eu/posts/68jyTyNjDww1F2yvJ1c4St/reaction-de-raphael-glucksmann-suite-a-l-adoption-de-la-loi-d-urgence-agricole",
+   "date_source": "2026-07-21"
+  },
+  {
+   "question_id": 62,
+   "question": "L'inscription du droit à l'avortement dans la Constitution (mars 2024) doit être maintenue et consolidée.",
+   "theme": "Société",
+   "valeur": 1,
+   "citation": "Garantir l’effectivité réelle du droit à l’IVG pour qu’il se traduise concrètement sur le terrain",
+   "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+   "date_source": "2025-06-23"
+  }
+ ]
+}

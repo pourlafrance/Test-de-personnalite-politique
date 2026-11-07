@@ -11,7 +11,7 @@
    "https://www.unenouvelleenergie.fr/david-lisnard-franchit-le-cap-des-500-promesses-de-parrainage-pour-2027/"
   ]
  },
- "positions_documentees": 31,
+ "positions_documentees": 29,
  "positions_total": 62,
  "programme_officiel_publie": true,
  "regles": "Voir SOURCES.md. Une position n'est retenue que si sa citation figure mot pour mot dans la page citée, date de 2024 ou après, ne repose pas sur une déduction, et a été confirmée par une relecture indépendante.",
@@ -77,15 +77,6 @@
    "valeur": 1,
    "citation": "supprimer les réductions de peine automatiques, mettre fin aux aménagements dès l’audience, rétablir les peines planchers pour les récidivistes",
    "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
-   "date_source": "2026-09-25"
-  },
-  {
-   "question_id": 12,
-   "question": "La France doit recruter davantage de forces de l'ordre.",
-   "theme": "Sécurité",
-   "valeur": 1,
-   "citation": "La première priorité pour la sécurité est celle d’un plan massif de remise à niveau de la police nationale",
-   "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
    "date_source": "2026-09-25"
   },
   {
@@ -203,15 +194,6 @@
    "valeur": 2,
    "citation": "nous rétablirons l’autorité du professeur, le primat du cours sur l’animation, et la logique de progression sur celle du ressenti",
    "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
-   "date_source": "2026-09-25"
-  },
-  {
-   "question_id": 34,
-   "question": "Les agriculteurs français doivent être davantage protégés et soutenus financièrement par l'État.",
-   "theme": "Agriculture",
-   "valeur": 1,
-   "citation": "Nous voulons rendre aux agriculteurs la liberté de produire, la possibilité d’innover, le droit d’être rémunérés justement.",
-   "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
    "date_source": "2026-09-25"
   },
   {
